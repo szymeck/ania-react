@@ -5,7 +5,9 @@ const Onas = () => {
   return (
     <div>
       <Bar title={'O nas'}/>
-      <h1>Mail us on feedback@geeksforgeeks.org</h1>
+      <secions class='onas'>
+
+      </secions>
     </div>
   );
 };

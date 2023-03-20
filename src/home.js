@@ -14,10 +14,11 @@ const Home = () => {
             <h1>Niepubliczne Przedszkole Integracyjne</h1>
             <h2>Ania z Zielonego Wzgórza</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-              molestias ipsam necessitatibus perspiciatis est aperiam beatae
-              corporis accusantium ipsum autem.
+            "Czy to nie przyjemnie, że jest tak dużo rzeczy, które jeszcze poznamy? To właśnie sprawia, że ja się tak cieszę życiem... świat jest taki ciekawy... Nie byłby taki ani w połowie, gdybyśmy wszystko o nim wiedzieli, prawda?"
+
             </p>
+            <p>Lucy Maud Montgomery,
+"Ania z Zielonego Wzgórza"</p>
             <div class="buttons">
               <button>O Nas</button>
               <button>Zapisz się</button>

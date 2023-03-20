@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: white;
+}
+
 html,
 body {
   position: relative;
@@ -39,22 +44,38 @@ nav {
 }
 nav .links {
   margin: auto;
+  display: flex;
+  height: 50px;
+  border-radius: 30px;
+}
+nav .links a {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #699e7e;
+  margin-left: 5px;
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.404));
+  font-size: 20px;
+  font-weight: 400;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  white-space: nowrap;
+}
+nav .links a:hover {
+  background-color: #ffad33;
+  box-shadow: inset 0 0 0 #ffad33, 0 0 1.2em #ffad33;
+}
+nav .links .active {
+  background-color: #ffad33;
 }
 nav .links-mobile {
-  width: 100px;
+  width: 160px;
 }
 nav .logo img {
   width: 160px;
-  margin-left: auto;
-}
-nav button {
-  font-size: 1.6rem;
-  font-weight: bold;
-  margin: 8px;
-  background-color: transparent;
-  color: #383838;
-  border: none;
-  cursor: pointer;
 }
 
 .bar {
@@ -141,9 +162,12 @@ nav button {
   line-height: 20px;
   font-size: 20px;
   font-weight: 300;
-  padding: 20px 20px 40px;
+  padding: 10px 20px;
   color: white;
   filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
+}
+.strona-glowna .strona-glowna-content .container .col-1 p:last-of-type {
+  font-size: 14px;
 }
 .strona-glowna .strona-glowna-content .container .col-1 .buttons {
   padding: 10px 20px 2px;
@@ -275,15 +299,15 @@ nav button {
 .o-nas .container-1 .col-2 .col-2-text2 .have__q3 .start__free:after {
   position: absolute;
   content: "";
-  width: 35%;
+  width: 37%;
   height: 3px;
-  left: 5%;
-  bottom: -4;
+  left: 3%;
   background: #ff564f;
+  bottom: -8px;
 }
 .o-nas .container-1 .col-2 .col-2-text2 .have__q3 .start__free:hover:after {
-  width: 93%;
-  left: 6%;
+  width: 100%;
+  left: 3%;
 }
 .o-nas .container-1 .col-2 .col-2-text2 .have__q3 .start__free:hover {
   letter-spacing: 1.2px;
@@ -314,7 +338,7 @@ nav button {
   width: 100%;
 }
 .o-nas-2 .container-3 .row-1 {
-  background-color: #ff564f;
+  background-color: #fc7536;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -329,7 +353,7 @@ nav button {
   height: 100%;
 }
 .o-nas-2 .container-3 .row-1 .row-1-item2 {
-  background-color: #ff564f;
+  background-color: #fc7536;
   margin-top: auto;
   margin-bottom: auto;
 }
