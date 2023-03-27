@@ -18,9 +18,7 @@ function Bar({title}){
         <div class="elem-9">
           <img src="./elem-9.svg" alt=""></img>
         </div>
-        <div class="elem-10">
-          <img src="./elem-10.svg" alt=""></img>
-        </div>
+      
         </div>
       </div>
       

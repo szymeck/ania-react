@@ -1,0 +1,264 @@
+.onas1 {
+  position: relative;
+  padding-top: 40px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+.onas1 .onas1-title {
+  margin-left: 40px;
+}
+.onas1 .onas1-title h2 {
+  position: relative;
+  font-weight: 900;
+  font-size: 30px;
+  color: #1a6136;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.329);
+}
+.onas1 .onas1-title h2::after {
+  display: block;
+  content: "";
+  width: 170px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+.onas1 .onas1-text {
+  margin: 20px 40px;
+}
+
+.onas2 {
+  position: relative;
+  margin: 20px auto;
+  max-width: 1600px;
+  padding: 0 20px;
+}
+.onas2 .onas2-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+.onas2 .onas2-container .onas2-item {
+  position: relative;
+  background-color: #1a6136;
+  border-radius: 5px;
+  max-width: 500px;
+  filter: drop-shadow(0px 1px 16px rgba(0, 0, 0, 0.707));
+}
+.onas2 .onas2-container .onas2-item .onas2-item-img {
+  background-color: transparent;
+}
+.onas2 .onas2-container .onas2-item .onas2-item-img img {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: #ffad33 10px solid;
+}
+.onas2 .onas2-container .onas2-item .onas2-item-text {
+  text-align: center;
+  color: #fff;
+  margin: 25px;
+}
+.onas2 .onas2-container .onas2-item .onas2-item-text h3 {
+  margin: 10px 0;
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
+  font-weight: 600;
+}
+
+.onas3 {
+  position: relative;
+  padding-top: 20px;
+  margin: 20px auto;
+  max-width: 1600px;
+  padding-bottom: 40px;
+}
+.onas3 .onas3-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin: 40px;
+  grid-gap: 2rem;
+}
+.onas3 .onas3-container .onas3-text-container .onas3-text {
+  background-color: rgba(26, 97, 54, 0.1921568627);
+  padding: 30px;
+  border-radius: 30px;
+}
+.onas3 .onas3-container .onas3-text-container .onas3-text p {
+  font-size: 17px;
+}
+.onas3 .onas3-container .onas3-text-container .onas3-text p:first-child {
+  margin-bottom: 20px;
+}
+.onas3 .onas3-container .onas3-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.onas4 {
+  background-color: #ffe9c7;
+}
+.onas4 .onas4-container {
+  margin: 20px auto;
+  max-width: 1300px;
+}
+.onas4 .onas4-container .onas4-title {
+  position: relative;
+  padding-top: 40px;
+  max-width: 1000px;
+}
+.onas4 .onas4-container .onas4-title .onas4-title-text {
+  margin: 20px 20px;
+}
+.onas4 .onas4-container .onas4-title .onas4-title-text p {
+  margin: 20px 0;
+}
+.onas4 .onas4-container .onas4-title .onas4-title-text h2 {
+  position: relative;
+  font-weight: 900;
+  font-size: 30px;
+  color: #c97f2c;
+}
+.onas4 .onas4-container .onas4-title .onas4-title-text h2::after {
+  display: block;
+  content: "";
+  width: 230px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+.onas4 .onas4-container .onas4-text {
+  position: relative;
+  margin: 20px auto;
+  padding-bottom: 40px;
+}
+.onas4 .onas4-container .onas4-text p {
+  margin: 20px 20px;
+}
+.onas4 .onas4-container .onas4-text h4 {
+  margin: 20px 20px;
+}
+
+.onas5 {
+  padding: 0 20px;
+}
+.onas5 .onas5-container {
+  margin: 20px auto;
+  max-width: 2000px;
+  padding-bottom: 40px;
+}
+.onas5 .onas5-container .onas5-title {
+  position: relative;
+  padding-top: 40px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+.onas5 .onas5-container .onas5-title .onas5-title-text {
+  margin: 20px 40px;
+  padding-bottom: 10px;
+}
+.onas5 .onas5-container .onas5-title .onas5-title-text p {
+  margin: 20px 0;
+}
+.onas5 .onas5-container .onas5-title .onas5-title-text h2 {
+  position: relative;
+  font-weight: 900;
+  font-size: 30px;
+  color: #fc7536;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.329);
+}
+.onas5 .onas5-container .onas5-title .onas5-title-text h2::after {
+  display: block;
+  content: "";
+  width: 240px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+.onas5 .container-3 {
+  max-width: 1300px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  filter: drop-shadow(0px 1px 16px rgba(0, 0, 0, 0.707));
+}
+.onas5 .container-3 .row-1 {
+  background-color: #ee5628;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.onas5 .container-3 .row-1 .row-1-item1 {
+  width: 100%;
+}
+.onas5 .container-3 .row-1 .row-1-item1 .row-1-item1-img {
+  height: 100%;
+}
+.onas5 .container-3 .row-1 .row-1-item1 .row-1-item1-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.onas5 .container-3 .row-1 .row-1-item2 {
+  background-color: #fc7536;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content {
+  padding: 20px 40px;
+  width: 100%;
+}
+.onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-text {
+  color: white;
+}
+.onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-text h5 {
+  font-weight: 700;
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: black;
+  font-size: 20px;
+}
+.onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-text h2 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+  padding-bottom: 4px;
+}
+.onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item:first-child {
+  padding-top: 0;
+}
+.onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item {
+  display: flex;
+  padding-top: 20px;
+}
+.onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item .list-item-text {
+  padding-top: 3px;
+  color: white;
+  padding-left: 20px;
+}
+.onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item .list-item-text h5 {
+  font-size: 18px;
+}
+.onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item .list-item-icon {
+  background: #fff;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 8%;
+  -webkit-border-radius: 8%;
+  -moz-border-radius: 8%;
+  max-height: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
+}/*# sourceMappingURL=onas.css.map */

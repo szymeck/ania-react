@@ -6,6 +6,7 @@ import Onas from "./onas";
 import Przedszkole from "./przedszkole";
 import Rekrutacja from "./rekrutacja";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
     
@@ -24,6 +25,7 @@ function App () {
         <Route exact path='/przedszkole' element={<Przedszkole/>} />
         <Route exact path='/rekrutacja' element={<Rekrutacja/>} />
         </Routes>
+        <Footer/>
       </Router>
         
         </div>
