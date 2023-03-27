@@ -84,7 +84,6 @@ nav .links-mobile {
 }
 nav .links-mobile .hamburger {
   display: none;
-  z-index: 6;
 }
 nav .logo {
   display: flex;
@@ -93,8 +92,13 @@ nav .logo img {
   width: 160px;
 }
 
+.navbar-scroll {
+  background-color: white;
+  filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.66));
+}
+
 .bar {
-  margin-top: 40px;
+  margin-top: 130px;
   background: #1a6136;
   padding: 20px 0;
   position: relative;
@@ -183,7 +187,7 @@ nav .logo img {
 
 .strona-glowna {
   margin: 0 2%;
-  padding-top: 40px;
+  padding-top: 130px;
 }
 .strona-glowna .elem-2 {
   position: absolute;

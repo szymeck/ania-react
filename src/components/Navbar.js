@@ -1,53 +1,122 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Burger from "./Burger";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Navbar() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
   };
+
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div>
-      <nav>
+      <nav className={scrollPosition > 10 ? "navbar-scroll" : "navbar"}>
         <div class="logo">
           <img src="./logo2.png" alt="logo" />
         </div>
         <ul className="links">
           <li>
-            <NavLink to="/" onClick={toggleHamburger} exact activeClassName="active">
+            <NavLink
+              to="/"
+              onClick={() => {
+                toggleHamburger();
+                scrollTop();
+              }}
+              exact
+              activeClassName="active"
+            >
               Strona Główna
             </NavLink>
           </li>
           <li>
-            <NavLink to="/onas" onClick={toggleHamburger} activeClassName="active">
+            <NavLink
+              to="/onas"
+              onClick={() => {
+                toggleHamburger();
+                scrollTop();
+              }}
+              activeClassName="active"
+            >
               O nas
             </NavLink>
           </li>
           <li>
-            <NavLink to="/oferta" onClick={toggleHamburger} activeClassName="active">
+            <NavLink
+              to="/oferta"
+              onClick={() => {
+                toggleHamburger();
+                scrollTop();
+              }}
+              activeClassName="active"
+            >
               Oferta
             </NavLink>
           </li>
           <li>
-            <NavLink to="/przedszkole" onClick={toggleHamburger} activeClassName="active">
+            <NavLink
+              to="/przedszkole"
+              onClick={() => {
+                toggleHamburger();
+                scrollTop();
+              }}
+              activeClassName="active"
+            >
               Przedszkole
             </NavLink>
           </li>
           <li>
-            <NavLink to="/aktualnosci" onClick={toggleHamburger} activeClassName="active">
+            <NavLink
+              to="/aktualnosci"
+              onClick={() => {
+                toggleHamburger();
+                scrollTop();
+              }}
+              activeClassName="active"
+            >
               Aktualności
             </NavLink>
           </li>
           <li>
-            <NavLink to="/rekrutacja" onClick={toggleHamburger} activeClassName="active">
+            <NavLink
+              to="/rekrutacja"
+              onClick={() => {
+                toggleHamburger();
+                scrollTop();
+              }}
+              activeClassName="active"
+            >
               Rekrutacja
             </NavLink>
           </li>
           <li>
-            <NavLink to="/kontakt" onClick={toggleHamburger} activeClassName="active">
+            <NavLink
+              to="/kontakt"
+              onClick={() => {
+                toggleHamburger();
+                scrollTop();
+              }}
+              activeClassName="active"
+            >
               Kontakt
             </NavLink>
           </li>
@@ -99,6 +168,7 @@ height:270px;
             background:white;
             position: absolute;
             border-radius: 0px;
+            filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.76));
             
           }
           nav .links li {
