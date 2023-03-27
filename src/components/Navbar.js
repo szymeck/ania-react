@@ -134,7 +134,7 @@ function Navbar() {
             margin-right: 0;
             border-radius: 0;
             padding: 0.2rem 2rem;
-            display: flex;
+            
 
             align-items: center;
             
@@ -147,6 +147,9 @@ function Navbar() {
             width: 100%;
             justify-content: space-between;
           }
+          // .navbar-scroll .logo{
+          //   padding:4px 10px;
+          // }
           nav .links-mobile .hamburger {
             display: flex;
 
