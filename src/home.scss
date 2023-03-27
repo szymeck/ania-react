@@ -50,6 +50,7 @@ left:0;
   padding: 2rem 2rem;
   background-color: transparent;
   position: fixed;
+  transition: all 0.1s ease-in;
   .links {
     margin: auto;
     display: flex;
@@ -98,12 +99,20 @@ left:0;
    
     img {
       width: 160px;
+      height: 100%;
     }
   }
 }
 .navbar-scroll {
   background-color:white;
   filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.66));
+  padding:0.2rem 2rem;
+  .logo{
+    img{
+      height: 70%;
+    }
+  }
+  
 }
 
 

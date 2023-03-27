@@ -30,7 +30,7 @@ function Navbar() {
   }, []);
   return (
     <div>
-      <nav className={scrollPosition > 10 ? "navbar-scroll" : "navbar"}>
+      <nav className={scrollPosition > 1 ? "navbar-scroll" : "navbar"}>
         <div class="logo">
           <img src="./logo2.png" alt="logo" />
         </div>
@@ -133,13 +133,13 @@ function Navbar() {
             margin-left: 0;
             margin-right: 0;
             border-radius: 0;
-
+            padding: 0.2rem 2rem;
             display: flex;
 
             align-items: center;
-            justify-content: center;
+            
             z-index: 12;
-            padding: 0;
+            
 
             
             display: flex;
@@ -162,6 +162,7 @@ function Navbar() {
             display: ${hamburgerOpen ? "flex" : "none"};
             flex-direction:column;
             top:0;
+            right:0;
 height:270px;
             padding-top:13px;
             width: 100%;
