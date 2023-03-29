@@ -128,12 +128,12 @@ function Navbar() {
         </div>
       </nav>
       <style jsx>{`
-        @media (max-width: 1507px) {
+        @media (max-width: 1130px) {
           nav {
             margin-left: 0;
             margin-right: 0;
             border-radius: 0;
-            padding: 0.2rem 2rem;
+            padding: 0.2rem 0.5rem;
             
 
             align-items: center;
@@ -147,9 +147,7 @@ function Navbar() {
             width: 100%;
             justify-content: space-between;
           }
-          // .navbar-scroll .logo{
-          //   padding:4px 10px;
-          // }
+          
           nav .links-mobile .hamburger {
             display: flex;
 
@@ -166,7 +164,7 @@ function Navbar() {
             flex-direction:column;
             top:0;
             right:0;
-height:270px;
+            height:410px;
             padding-top:13px;
             width: 100%;
             background:white;
@@ -180,7 +178,7 @@ height:270px;
             margin-left:auto;
             margin-right:auto;
             margin-bottom:5px;
-            width:100%
+            width:100%;
             
           }
           
@@ -189,6 +187,7 @@ height:270px;
             justify-content: center;
             margin-left:auto;
             margin-right:auto;
+            height:50px;
           }
         }
         }

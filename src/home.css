@@ -42,7 +42,7 @@ nav {
   align-items: center;
   justify-content: center;
   z-index: 12;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2.5rem;
   background-color: transparent;
   position: fixed;
 }
@@ -78,7 +78,7 @@ nav .links .active {
   background-color: #ffad33;
 }
 nav .links-mobile {
-  width: 140px;
+  width: 160px;
   display: flex;
   justify-content: flex-end;
   transition: all 0.1s ease-in;
@@ -252,7 +252,8 @@ nav .logo img {
 .strona-glowna .strona-glowna-content .container .col-1 .buttons {
   padding: 10px 20px 2px;
 }
-.strona-glowna .strona-glowna-content .container .col-1 .buttons button {
+.strona-glowna .strona-glowna-content .container .col-1 .buttons .btn {
+  cursor: pointer;
   background: transparent;
   color: white;
   width: 148px;
@@ -260,17 +261,41 @@ nav .logo img {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   display: inline-flex;
   border: 1px solid #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
+  z-index: 22;
 }
 .strona-glowna .strona-glowna-content .container .col-1 .buttons :last-child {
   margin-left: 20px;
+}
+.strona-glowna .strona-glowna-content .container .col-1 .buttons :after {
+  position: absolute;
+  content: "";
+  background: #ffad33;
+  border-radius: 4px;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transition-duration: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strona-glowna .strona-glowna-content .container .col-1 .buttons :hover::after {
+  transform: scaleX(1);
+}
+.strona-glowna .strona-glowna-content .container .col-1 .buttons :hover {
+  border: #ffad33;
 }
 .strona-glowna .strona-glowna-content .col-2 {
   position: relative;

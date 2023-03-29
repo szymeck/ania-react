@@ -20,8 +20,8 @@ const Home = () => {
             <p>Lucy Maud Montgomery,
 "Ania z Zielonego Wzgórza"</p>
             <div class="buttons">
-              <button>O Nas</button>
-              <button>Zapisz się</button>
+              <a class="btn">O Nas</a>
+              <a class="btn">Zapisz się</a>
             </div>
           </div>
           <div class="col-2">
