@@ -4,6 +4,7 @@ const Home = () => {
   return (
     
     <div>
+      
     <div class="strona-glowna">
       <div class="strona-glowna-content">
         <div class="container">
@@ -33,6 +34,7 @@ const Home = () => {
     
 
     <div class="o-nas">
+    
       <div class="container-1">
         <div class="col-1">
           <div class="col-1-img">
@@ -266,6 +268,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        
       </div>
     </div>
     

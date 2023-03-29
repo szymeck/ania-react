@@ -198,7 +198,6 @@ nav .logo img {
   position: relative;
   margin: 0 auto;
   border-radius: 30px;
-  filter: drop-shadow(0px 1px 16px rgba(0, 0, 0, 0.707));
 }
 .strona-glowna .strona-glowna-content .container {
   display: grid;
@@ -210,11 +209,6 @@ nav .logo img {
   padding: 0 15px;
   margin-top: auto;
   margin-bottom: auto;
-}
-.strona-glowna .strona-glowna-content .container .col-1 .elem-1 {
-  position: absolute;
-  top: 33%;
-  left: -2%;
 }
 .strona-glowna .strona-glowna-content .container .col-1 h1 {
   line-height: 50px;
