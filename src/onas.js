@@ -7,6 +7,10 @@ const Onas = () => {
     <div>
       <Bar title={'O nas'}/>
       <div class="onas1">
+      <div class="buttons">
+              <button class="btn">O Nas</button>
+              <button class="btn">Zapisz się</button>
+          </div>
 <div class="onas1-title">
   <h2>Nasze atuty </h2>
 </div>

@@ -3,7 +3,7 @@ import './home.css';
 const Home = () => {
   return (
     
-    <main>
+    <div>
     <div class="strona-glowna">
       <div class="strona-glowna-content">
         <div class="container">
@@ -23,10 +23,11 @@ const Home = () => {
               <button class="btn">O Nas</button>
               <button class="btn">Zapisz się</button>
           </div>
+          </div>
           <div class="col-2">
             <img src="./main-img.png" alt="wzgorza" />
           </div>
-        </div>
+        
       </div>
     </div>
     </div>
@@ -270,7 +271,7 @@ const Home = () => {
       </div>
     </div>
     
-  </main>
+  </div>
     
   );
 };
