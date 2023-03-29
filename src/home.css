@@ -272,31 +272,6 @@ nav .logo img {
 .strona-glowna .strona-glowna-content .container .col-1 .buttons :last-child {
   margin-left: 20px;
 }
-.strona-glowna .strona-glowna-content .container .col-1 .buttons :after {
-  position: absolute;
-  content: "";
-  background: #ffad33;
-  border-radius: 4px;
-  z-index: -1;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  transition-property: transform;
-  transition-timing-function: ease-out;
-  transition-duration: 0.2s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.strona-glowna .strona-glowna-content .container .col-1 .buttons :hover::after {
-  transform: scaleX(1);
-}
-.strona-glowna .strona-glowna-content .container .col-1 .buttons :hover {
-  border: #ffad33;
-}
 .strona-glowna .strona-glowna-content .col-2 {
   position: relative;
   margin-right: 60px;
