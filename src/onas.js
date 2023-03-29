@@ -6,7 +6,7 @@ const Onas = () => {
   return (
     <div>
       <Bar title={'O nas'}/>
-      <section class="onas1">
+      <div class="onas1">
 <div class="onas1-title">
   <h2>Nasze atuty </h2>
 </div>
@@ -15,8 +15,8 @@ const Onas = () => {
     Pragniemy przekazywać dzieciom zasady tolerancji i akceptacji, kształtując dobre nawyki oraz zachowania oparte na współpracy z rówieśnikami. Zachęcamy do podejmowania działań poprzez kreatywne zabawy i inspirujące metody nauczania.</div>
 
 
-    </section>
-    <section class="onas2">
+    </div>
+    <div class="onas2">
       <div class="onas2-container">
         <div class="onas2-item">
           <div class="onas2-item-img">
@@ -46,8 +46,8 @@ const Onas = () => {
           </div>
         </div>
       </div>
-    </section>
-    <section class="onas3">
+    </div>
+    <div class="onas3">
       <div class="onas3-container">
         <div class="onas3-text-container">
           <div class="onas3-text">
@@ -60,8 +60,8 @@ const Onas = () => {
           <img src="./col-2.jpg" alt=""></img>
         </div>
       </div>
-    </section>
-    <section class="onas4">
+    </div>
+    <div class="onas4">
       <div class="onas4-container">
         <div class="onas4-text-container">
           <div class="onas4-title">
@@ -81,8 +81,8 @@ const Onas = () => {
           </div>
         </div>
       </div>
-    </section>
-    <section class="onas5">
+    </div>
+    <div class="onas5">
       <div class="onas5-container">
         <div class="onas5-title">
           <div class="onas5-title-text">
@@ -153,7 +153,7 @@ const Onas = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
     </div>
   );
 };

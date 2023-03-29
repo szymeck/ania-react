@@ -4,7 +4,7 @@ const Home = () => {
   return (
     
     <main>
-    <section class="strona-glowna">
+    <div class="strona-glowna">
       <div class="strona-glowna-content">
         <div class="container">
           <div class="col-1">
@@ -28,11 +28,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
+    </div>
 
     
 
-    <section class="o-nas">
+    <div class="o-nas">
       <div class="container-1">
         <div class="col-1">
           <div class="col-1-img">
@@ -140,8 +141,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </section>
-    <section class="o-nas-2">
+    </div>
+    <div class="o-nas-2">
       <div class="container-3">
         <div class="row-1">
           <div class="row-1-item1">
@@ -202,8 +203,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </section>
-    <section class="o-nas-3">
+    </div>
+    <div class="o-nas-3">
       <div class="side-img1">
         <img src="./elem-5.svg" alt="" />
       </div>
@@ -267,9 +268,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </section>
-    <section class="zajecia"></section>
-    <section class="kontakt"></section>
+    </div>
+    
   </main>
     
   );
