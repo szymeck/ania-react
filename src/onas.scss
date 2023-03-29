@@ -53,7 +53,7 @@ $highlite:#ff564f;
         background-color: $main-color;
         border-radius: 5px;
         max-width: 500px;
-        filter: drop-shadow(0px 1px 16px rgba(0, 0, 0, 0.707));
+        box-shadow: inset 0 0 0 #000000, 0 0 0.8em #000000;
         
         
               .onas2-item-img{
@@ -78,7 +78,7 @@ $highlite:#ff564f;
           margin: 25px;
           h3{
             margin: 10px 0;
-            filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
+            text-shadow:(0px 1px 3px rgba(0, 0, 0, 0.329)) ;
             font-weight: 600;
           }
          
@@ -220,7 +220,7 @@ $highlite:#ff564f;
     
     border-radius: 10px;
     overflow: hidden;
-    filter: drop-shadow(0px 1px 16px rgba(0, 0, 0, 0.707));
+    box-shadow: inset 0 0 0 #000000, 0 0 0.8em #000000;
       .row-1 {
         background-color: #ee5628;
         display: grid;
