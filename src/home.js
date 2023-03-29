@@ -8,9 +8,7 @@ const Home = () => {
       <div class="strona-glowna-content">
         <div class="container">
           <div class="col-1">
-            <div class="elem-1">
-              <img src="./elem-1.svg" alt="elem1" />
-            </div>
+            
             <h1>Niepubliczne Przedszkole Integracyjne</h1>
             <h2>Ania z Zielonego Wzgórza</h2>
             <p>
