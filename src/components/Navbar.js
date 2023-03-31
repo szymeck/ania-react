@@ -30,7 +30,7 @@ function Navbar() {
   }, []);
   return (
     <div>
-      <nav className={scrollPosition > 1 ? "navbar-scroll" : "navbar"}>
+      <nav className={scrollPosition > 50 ? "navbar-scroll" : "navbar"}>
         <div class="logo">
           <img src="./logo2.png" alt="logo" />
         </div>
@@ -134,23 +134,15 @@ function Navbar() {
             margin-right: 0;
             border-radius: 0;
             padding: 0.2rem 0.5rem;
-            
-            
-            align-items: center;
-            
+            align-items: center;           
             z-index: 12;
-            
-
-            
             display: flex;
-           
             width: 100%;
             justify-content: space-between;
           }
           
           nav .links-mobile .hamburger {
             display: flex;
-
             z-index: 6;
           }
           nav .links-mobile  {
@@ -164,24 +156,22 @@ function Navbar() {
             flex-direction:column;
             top:0;
             right:0;
-            height: ${hamburgerOpen ? "410px" : "0px"};
-            padding-top:${hamburgerOpen ? "13px" : "0px"};
+            height: 410px;
+            padding-top:13px;
             width: 100%;
             background:white;
             position: absolute;
             border-radius: 0px;
             box-shadow: inset 0 0 0 #000000, 0 0 0.8em #000000;
-            transition: all .3s ;
-            
-            
+            transform:translateY${hamburgerOpen ? "(0)" : "(-500px)"}; 
+            transition: all .2s  ;
           }
           nav .links li {
             max-width: 200px;
             margin-left:auto;
             margin-right:auto;
             margin-bottom:5px;
-            width:100%;
-            
+            width:100%;  
           }
           
           nav .links li a {
@@ -190,9 +180,8 @@ function Navbar() {
             margin-left:auto;
             margin-right:auto;
             height:50px;
-            transform:translateY${hamburgerOpen ? "(0)" : "(-500px)"}; 
-            transition: all .3s ease-out;
             
+           
           }
         }
         }

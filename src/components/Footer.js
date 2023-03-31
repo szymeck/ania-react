@@ -39,23 +39,23 @@ function Footer() {
                   <h3>Informacje</h3>
                 </div>
                 <ul class="item-list">
-                  <li onClick={()=>scrollTop()} >
-                    <Link to="/">Strona Główna</Link>
+                  <li  >
+                    <Link onClick={()=>scrollTop()} to="/">Strona Główna</Link>
                   </li>
-                  <li onClick={()=>scrollTop()} >
-                    <Link to="/onas">O nas</Link>
+                  <li  >
+                    <Link onClick={()=>scrollTop()} to="/onas">O nas</Link>
                   </li>
-                  <li onClick={()=>scrollTop()} >
-                    <Link to="/oferta">Oferta</Link>
+                  <li  >
+                    <Link  onClick={()=>scrollTop()} to="/oferta">Oferta</Link>
                   </li>
-                  <li onClick={()=>scrollTop()} >
-                    <Link to="/przedszkle">Przedszkole</Link>
+                  <li  >
+                    <Link onClick={()=>scrollTop()} to="/przedszkole">Przedszkole</Link>
                   </li>
-                  <li onClick={()=>scrollTop()} >
-                    <Link to="/aktualnosci">Aktualności</Link>
+                  <li  >
+                    <Link onClick={()=>scrollTop()} to="/aktualnosci">Aktualności</Link>
                   </li>
-                  <li onClick={()=>scrollTop()} >
-                    <Link to="/rekrutacja">Rekrutacja</Link>
+                  <li   >
+                    <Link onClick={()=>scrollTop()} to="/rekrutacja">Rekrutacja</Link>
                   </li>
                 </ul>
               </div>
