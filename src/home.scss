@@ -57,6 +57,7 @@ nav {
     border-radius: 30px;
     list-style: none;
     background: transparent;
+    
 
     a {
       display: flex;
@@ -72,7 +73,7 @@ nav {
 
       font-size: 20px;
       font-weight: 400;
-      transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+      transition: background-color 0.3s, box-shadow 0.3s, color 0.3s ;
       white-space: nowrap;
       &:hover {
         background-color: $secondary-color;

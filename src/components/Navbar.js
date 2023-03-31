@@ -135,7 +135,7 @@ function Navbar() {
             border-radius: 0;
             padding: 0.2rem 0.5rem;
             
-
+            
             align-items: center;
             
             z-index: 12;
@@ -160,17 +160,19 @@ function Navbar() {
             padding:10px;
           }
           nav .links {
-            display: ${hamburgerOpen ? "flex" : "none"};
+            
             flex-direction:column;
             top:0;
             right:0;
-            height:410px;
-            padding-top:13px;
+            height: ${hamburgerOpen ? "410px" : "0px"};
+            padding-top:${hamburgerOpen ? "13px" : "0px"};
             width: 100%;
             background:white;
             position: absolute;
             border-radius: 0px;
-            filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.76));
+            box-shadow: inset 0 0 0 #000000, 0 0 0.8em #000000;
+            transition: all .3s ;
+            
             
           }
           nav .links li {
@@ -188,6 +190,9 @@ function Navbar() {
             margin-left:auto;
             margin-right:auto;
             height:50px;
+            transform:translateY${hamburgerOpen ? "(0)" : "(-500px)"}; 
+            transition: all .3s ease-out;
+            
           }
         }
         }
