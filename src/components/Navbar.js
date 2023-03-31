@@ -8,7 +8,9 @@ function Navbar() {
 
   const scrollTop = () => {
     window.scrollTo({
+      left:0,
       top: 0,
+      
       behavior: "smooth",
     });
   };
@@ -28,9 +30,17 @@ function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  // useEffect(() => {
+  //   const element = document.getElementById('myButton'); // Replace with your element's ID
+  //   element.addEventListener('click', scrollToTop);
+  //   return () => element.removeEventListener('click', scrollToTop);
+  // }, []);
+
+
   return (
     <div>
-      <nav className={scrollPosition > 50 ? "navbar-scroll" : "navbar"}>
+      <nav className={scrollPosition > 10 ? "navbar-scroll" : "navbar"}>
         <div class="logo">
           <img src="./logo2.png" alt="logo" />
         </div>
