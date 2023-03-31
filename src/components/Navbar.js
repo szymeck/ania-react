@@ -164,7 +164,7 @@ function Navbar() {
             border-radius: 0;
             padding: 0.2rem 0.5rem;
             align-items: center;           
-            z-index: 12;
+            
             display: flex;
             width: 100%;
             justify-content: space-between;

@@ -41,7 +41,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  z-index: 12;
+  z-index: 25;
   padding: 0.8rem 2.5rem;
   background-color: transparent;
   position: fixed;
@@ -258,7 +258,7 @@ nav .logo img {
   line-height: 30px;
   filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.707));
   position: relative;
-  z-index: 222;
+  z-index: 22;
 }
 .strona-glowna .strona-glowna-content .container .col-1 .buttons :last-child {
   margin-left: 20px;
