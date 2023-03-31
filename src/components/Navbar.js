@@ -6,14 +6,32 @@ import { useState, useEffect } from "react";
 function Navbar() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
-  const scrollTop = () => {
-    window.scrollTo({
-      left:0,
-      top: 0,
+  // const scrollTop = () => {
+  //   window.scrollTo({
+  //     left:0,
+  //     top: 0,
       
-      behavior: "smooth",
-    });
-  };
+  //     behavior: "smooth",
+  //   });
+  // };
+
+  
+  const [shouldScrollTop, setShouldScrollTop] = useState(false);
+  
+
+  function handleClick() {
+    setShouldScrollTop(true);
+  }
+
+  useEffect(() => {
+    if (shouldScrollTop) {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+      setShouldScrollTop(false);
+    }
+  }, [shouldScrollTop]);
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
@@ -50,7 +68,7 @@ function Navbar() {
               to="/"
               onClick={() => {
                 toggleHamburger();
-                scrollTop();
+                handleClick();
               }}
               exact
               activeClassName="active"
@@ -63,7 +81,7 @@ function Navbar() {
               to="/onas"
               onClick={() => {
                 toggleHamburger();
-                scrollTop();
+                handleClick();
               }}
               activeClassName="active"
             >
@@ -75,7 +93,7 @@ function Navbar() {
               to="/oferta"
               onClick={() => {
                 toggleHamburger();
-                scrollTop();
+                handleClick();
               }}
               activeClassName="active"
             >
@@ -87,7 +105,7 @@ function Navbar() {
               to="/przedszkole"
               onClick={() => {
                 toggleHamburger();
-                scrollTop();
+                handleClick();
               }}
               activeClassName="active"
             >
@@ -99,7 +117,7 @@ function Navbar() {
               to="/aktualnosci"
               onClick={() => {
                 toggleHamburger();
-                scrollTop();
+                handleClick();
               }}
               activeClassName="active"
             >
@@ -111,7 +129,7 @@ function Navbar() {
               to="/rekrutacja"
               onClick={() => {
                 toggleHamburger();
-                scrollTop();
+                handleClick();
               }}
               activeClassName="active"
             >
@@ -123,7 +141,7 @@ function Navbar() {
               to="/kontakt"
               onClick={() => {
                 toggleHamburger();
-                scrollTop();
+                handleClick();
               }}
               activeClassName="active"
             >
