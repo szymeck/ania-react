@@ -1,16 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 
 function Footer() {
 
-  const scrollTop = () => {
-    window.scrollTo({
-      top: 0,
-      left:0,
-      behavior: "smooth"
-    });
-}
+  const [shouldScrollTop, setShouldScrollTop] = useState(false);
+  
+
+  function handleClick() {
+    setShouldScrollTop(true);
+  }
+
+  useEffect(() => {
+    if (shouldScrollTop) {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+      setShouldScrollTop(false);
+    }
+  }, [shouldScrollTop]);
+
 
   return (
     <div>
@@ -41,22 +52,22 @@ function Footer() {
                 </div>
                 <ul class="item-list">
                   <li  >
-                    <Link onClick={()=>scrollTop()} to="/">Strona Główna</Link>
+                    <Link onClick={()=>handleClick()} to="/">Strona Główna</Link>
                   </li>
                   <li  >
-                    <Link onClick={()=>scrollTop()} to="/onas">O nas</Link>
+                    <Link onClick={()=>handleClick()} to="/onas">O nas</Link>
                   </li>
                   <li  >
-                    <Link  onClick={()=>scrollTop()} to="/oferta">Oferta</Link>
+                    <Link  onClick={()=>handleClick()} to="/oferta">Oferta</Link>
                   </li>
                   <li  >
-                    <Link onClick={()=>scrollTop()} to="/przedszkole">Przedszkole</Link>
+                    <Link onClick={()=>handleClick()} to="/przedszkole">Przedszkole</Link>
                   </li>
                   <li  >
-                    <Link onClick={()=>scrollTop()} to="/aktualnosci">Aktualności</Link>
+                    <Link onClick={()=>handleClick()} to="/aktualnosci">Aktualności</Link>
                   </li>
                   <li   >
-                    <Link onClick={()=>scrollTop()} to="/rekrutacja">Rekrutacja</Link>
+                    <Link onClick={()=>handleClick()} to="/rekrutacja">Rekrutacja</Link>
                   </li>
                 </ul>
               </div>
