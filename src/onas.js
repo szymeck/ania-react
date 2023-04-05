@@ -21,7 +21,7 @@ const Onas = () => {
       <div class="onas2-container">
         <div class="onas2-item">
           <div class="onas2-item-img">
-            <img src="./onas-4.jpg" alt=""></img>
+            <img src="./onas-5.jpg" alt=""></img>
           </div>
           <div class="onas2-item-text">
             <h3>Kameralne Grupy</h3>
@@ -30,7 +30,7 @@ const Onas = () => {
         </div>
         <div class="onas2-item">
           <div class="onas2-item-img">
-          <img src="./onas-4.jpg" alt=""></img>
+          <img src="./onas-6.jpg" alt=""></img>
           </div>
           <div class="onas2-item-text">
             <h3>Adaptacja</h3>
@@ -39,7 +39,7 @@ const Onas = () => {
         </div>
         <div class="onas2-item">
           <div class="onas2-item-img">
-          <img src="./onas-4.jpg" alt=""></img>
+          <img src="./onas-7.jpg" alt=""></img>
           </div>
           <div class="onas2-item-text">
             <h3>Komfort każdego dziecka</h3>
@@ -97,7 +97,7 @@ const Onas = () => {
           <div class="row-1">
             <div class="row-1-item1">
               <div class="row-1-item1-img">
-                <img src="./onas-4.jpg" alt="" />
+                <img src="./onas-8.jpg" alt="" />
               </div>
             </div>
             <div class="row-1-item2">
