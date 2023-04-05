@@ -4,6 +4,7 @@ import Kontakt from "./kontakt";
 import Oferta from "./oferta";
 import Onas from "./onas";
 import Przedszkole from "./przedszkole";
+import Aktualnosci from "./aktualnosci";
 import Rekrutacja from "./rekrutacja";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -24,6 +25,7 @@ function App () {
         <Route exact path='/onas' element={<Onas/>} />
         <Route exact path='/przedszkole' element={<Przedszkole/>} />
         <Route exact path='/rekrutacja' element={<Rekrutacja/>} />
+        <Route exact path='/aktualnosci' element={<Aktualnosci/>} />
         </Routes>
         <Footer/>
       </Router>
