@@ -205,7 +205,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div class="o-nas-3">
+    {/* <div class="o-nas-3">
       <div class="side-img1">
         <img src="./elem-5.svg" alt="" />
       </div>
@@ -270,7 +270,7 @@ const Home = () => {
         </div>
         
       </div>
-    </div>
+    </div> */}
     
   </div>
     

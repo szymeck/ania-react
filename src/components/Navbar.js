@@ -59,7 +59,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className={scrollPosition > 10 ? "navbar-scroll" : "navbar"}>
+      <nav className={scrollPosition > 15 ? "navbar-scroll" : "navbar"}>
         <div class="logo">
           <img src="./logo2.png" alt="logo" />
         </div>

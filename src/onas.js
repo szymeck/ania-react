@@ -1,6 +1,8 @@
 import React from 'react';
 import Bar from './components/Bar';
+import Collaps from './components/Collaps';
 import './onas.css';
+
   
 const Onas = () => {
   return (
@@ -51,15 +53,18 @@ const Onas = () => {
     <div class="onas3">
       <div class="onas3-container">
         <div class="onas3-text-container">
-          <div class="onas3-text">
-            <p>W naszym  przedszkolu  pracują specjaliści m.in logopeda, fizjoterapeuta , terapeuta SI, pedagog specjalny, psycholog, neurologopeda - wszystkie dzieci są pod ich stałą kontrolą. Zajęcia grupowe takie jak gimnastyka czy logorytmika, oprócz frajdy dla dzieci, są również czasem obserwacji przez specjalistę od rozwoju mowy czy prawidłowej postawy. Również dla rodziców jest to duża zaleta, jeśli mają  Państwo jakiekolwiek pytania lub wątpliwości możecie w każdej chwili  na miejscu skonsultować się i poradzić. Dzięki współpracy całego zespołu , Wasze dzieci mają możliwość wszechstronnego rozwoju.</p>
-            <p>Przedszkole  integracyjne uczy dzieci tolerancji i akceptacji. Każdy maluch jest inny, ale jest akceptowany przez grupę takim jakim jest. Nie chodzi tylko o dzieci z trudnościami rozwojowymi - przecież  każdemu przedszkolakowi czasem jest trudno sobie z czymś poradzić, boi się czegoś, potrzebuje większego wsparcia, ma gorszy dzień, nie wie jak coś zrobić, bo nigdy nie miał z tym styczności etc. W grupie integracyjnej, dzieci uczą się tego, że każdy ma prawo do swojego tempa pracy, własnego sposobu działania, innego pomysłu na rozwiązanie jakiegoś problemu, wyglądania inaczej, porozumiewania się w mniej standardowy sposób, okazywania emocji bardziej lub mniej ekspresyjnie etc. Jeśli przedszkolak akceptuje innych takimi, jakimi są, łatwiej mu jest również zaakceptować siebie i budować pozytywną samoocenę. Kończąc przedszkole wie, że nie wszyscy są doskonali. Nie boi się inności, jest otwarty i empatyczny. Nasze Przedszkole to również przestronne -nowocześnie wyposażone sale do zajęć, sala światła  , gabinety do zajęć indywidualnych ( logopedyczny, integracji sensorycznej) oraz nowoczesny Plac Zabaw na terenie Przedszkola. </p>
-
-          </div>
+          <Collaps label="Specjaliści" icon="/icon4.png" >
+          <p>W naszym  przedszkolu  pracują specjaliści m.in logopeda, fizjoterapeuta , terapeuta SI, pedagog specjalny, psycholog, neurologopeda - wszystkie dzieci są pod ich stałą kontrolą. Zajęcia grupowe takie jak gimnastyka czy logorytmika, oprócz frajdy dla dzieci, są również czasem obserwacji przez specjalistę od rozwoju mowy czy prawidłowej postawy. Również dla rodziców jest to duża zaleta, jeśli mają  Państwo jakiekolwiek pytania lub wątpliwości możecie w każdej chwili  na miejscu skonsultować się i poradzić. Dzięki współpracy całego zespołu , Wasze dzieci mają możliwość wszechstronnego rozwoju.</p>
+          </Collaps>
+          <Collaps label="Nowoczesne wyposażenie"  icon="/icon5.png">
+            <p>Nasze Przedszkole to również przestronne -nowocześnie wyposażone sale do zajęć, sala światła  , gabinety do zajęć indywidualnych ( logopedyczny, integracji sensorycznej) oraz nowoczesny Plac Zabaw na terenie Przedszkola. </p>
+          </Collaps>
+          <Collaps label="Uczymy tolerancji i akceptacji"  icon="/icon6.png" >
+          <p>Przedszkole  integracyjne uczy dzieci tolerancji i akceptacji. Każdy maluch jest inny, ale jest akceptowany przez grupę takim jakim jest. Nie chodzi tylko o dzieci z trudnościami rozwojowymi - przecież  każdemu przedszkolakowi czasem jest trudno sobie z czymś poradzić, boi się czegoś, potrzebuje większego wsparcia, ma gorszy dzień, nie wie jak coś zrobić, bo nigdy nie miał z tym styczności etc. W grupie integracyjnej, dzieci uczą się tego, że każdy ma prawo do swojego tempa pracy, własnego sposobu działania, innego pomysłu na rozwiązanie jakiegoś problemu, wyglądania inaczej, porozumiewania się w mniej standardowy sposób, okazywania emocji bardziej lub mniej ekspresyjnie etc. Jeśli przedszkolak akceptuje innych takimi, jakimi są, łatwiej mu jest również zaakceptować siebie i budować pozytywną samoocenę. Kończąc przedszkole wie, że nie wszyscy są doskonali. Nie boi się inności, jest otwarty i empatyczny. </p>
+          </Collaps>
+          
         </div>
-        <div class="onas3-img">
-          <img src="./col-2.jpg" alt=""></img>
-        </div>
+        
       </div>
     </div>
     <div class="onas4">
