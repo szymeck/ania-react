@@ -33,7 +33,7 @@ function Footer() {
                 <ul class="item-list">
                   <li>Telefon: +000 0000 0000</li>
                   <li>E-Mail: ania@gmail.com</li>
-                  <li>Addres: Sokołow Podlaski 08-300, ul. Prosta 53</li>
+                  <li>Adres: Sokołow Podlaski 08-300, ul. Prosta 53</li>
                   <li>Godziny otwarcia: Poniedziałek - Piątek w godzinach 8 - 18 </li>
                 </ul>
                 <ul class="item-social">
