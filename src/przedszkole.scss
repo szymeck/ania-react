@@ -1,0 +1,338 @@
+$main-color: #1a6136;
+$secondary-color: #ffad33;
+$font-color: #383838;
+$highlite: #ff564f;
+
+.przedszkole1 {
+  margin: 20px auto;
+  max-width: 1600px;
+  padding: 0 20px;
+  padding-bottom: 40px;
+  .przedszkole1-title {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    max-width: 90px;
+    h2 {
+      position: relative;
+      font-weight: 900;
+      font-size: 30px;
+      color: $main-color;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2::after {
+      display: block;
+      content: "";
+      width: 85px;
+      height: 2px;
+      background: black;
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+    }
+  }
+  .grupy {
+    max-width: 1200px;
+    margin: auto;
+    .grupa-1,
+    .grupa-2,
+    .grupa-3 {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      margin: 20px 0px;
+      box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+
+      .grupa-col1 {
+        .grupa-img {
+          height: 100%;
+          position: relative;
+          .img-title {
+            float: left;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            z-index: 3;
+            padding: 5px;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 18px;
+            width: 100%;
+            text-align: center;
+            border-bottom-left-radius: 5px;
+          }
+          img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+          }
+        }
+      }
+      .grupa-col2 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+
+        .grupa-text {
+          padding: 10px 20px;
+          margin-top: auto;
+          margin-bottom: auto;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+      }
+    }
+    .grupa-1 {
+      .grupa-col1 {
+        .grupa-img {
+          .img-title {
+            background-color: #ffad3370;
+          }
+        }
+      }
+      .grupa-col2 {
+        background-color: #ffad3333;
+        border-left: #ffad33 solid 10px;
+      }
+    }
+    .grupa-2 {
+      .grupa-col1 {
+        .grupa-img {
+          .img-title {
+            background-color: #8c3ef3a6;
+          }
+        }
+      }
+      .grupa-col2 {
+        background-color: #8c3ef328;
+        border-left: #7b1afa solid 10px;
+      }
+    }
+    .grupa-3 {
+      .grupa-col1 {
+        .grupa-img {
+          .img-title {
+            background-color: #1a613680;
+          }
+        }
+      }
+      .grupa-col2 {
+        background-color: #1a61362a;
+        border-left: #1a6136 solid 10px;
+      }
+    }
+  }
+}
+.przedszkole2 {
+  margin: 20px auto;
+  max-width: 1240px;
+  padding-bottom: 40px;
+  
+  .przedszkole2-title {
+    padding-bottom: 20px;
+    position: relative;
+
+    padding-bottom: 20px;
+    margin: 20px auto;
+    max-width: 130px;
+    h2 {
+      position: relative;
+      font-weight: 900;
+      font-size: 30px;
+      color: $secondary-color;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2::after {
+      display: block;
+      content: "";
+      width: 130px;
+      height: 2px;
+      background: black;
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+    }
+  }
+  .plan {
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 #000000, 0 0 0.8em #000000;
+    margin:0 20px;
+    .plan-img {
+      max-height: 200px;
+      position: relative;
+      .plan-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #1a6136e5;
+        color: white;
+        padding: 20px 30px;
+        border-radius: 5px;
+        font-size: 24px;
+        border: 2px solid #ffad33;
+      }
+      img {
+        object-fit: cover;
+        width: 100%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        max-height: 200px;
+        border-bottom: #ffad33 3px solid;
+      }
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #1a6136f1;
+      color: white;
+
+      td {
+        min-width: 130px;
+        padding: 5px;
+        vertical-align: top;
+      }
+      td:first-child {
+        padding-left: 20px;
+      }
+      td:last-child {
+        padding-right: 20px;
+      }
+      tr:nth-of-type(2n) {
+        background-color: #1a6136dc;
+      }
+    }
+    .foot {
+      background-color: #ffad33;
+      height: 30px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      overflow: hidden;
+    }
+  }
+}
+.przedszkole3 {
+  background-color: #ffad333a;
+  padding: 30px 20px;
+  .przedszkole3-container {
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
+    .przedszkole3-title {
+      position: relative;
+      margin: 20px auto;
+      max-width: 100px;
+      h2 {
+        position: relative;
+        font-weight: 900;
+        font-size: 30px;
+        color: $main-color;
+        margin-left: auto;
+      margin-right: auto;
+      }
+      h2::after {
+        display: block;
+        content: "";
+        width: 80px;
+        height: 2px;
+        background: black;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+      }
+    }
+    .przedszkole3-item {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px;
+      margin: 30px;
+      ul {
+        list-style: none;
+      }
+      i {
+        color: #1a6136;
+      }
+      .przedszkole3-text1 {
+        p {
+          margin-bottom: 15px;
+        }
+      }
+      .przedszkole3-text2 {
+        p {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+.przedszkole4 {
+  margin: 20px auto;
+  max-width: 1300px;
+  padding-bottom: 40px;
+  padding: 0 20px;
+  padding-top: 10px;
+  .przedszkole4-title {
+    position: relative;
+
+    padding-bottom: 20px;
+    margin: 20px auto;
+    max-width: 240px;
+    h2 {
+      position: relative;
+      font-weight: 900;
+      font-size: 30px;
+      color: $secondary-color;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2::after {
+      display: block;
+      content: "";
+      width: 240px;
+      height: 2px;
+      background: black;
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+    }
+  }
+  .przedszkole4-container {
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      td {
+        padding: 5px;
+        vertical-align: auto;
+        text-align: center;
+      }
+      tr:first-child {
+        font-weight: 600;
+        background-color: #1a6136;
+        color: white;
+      }
+      tr:nth-of-type(2n) {
+        background-color: #1a613628;
+      }
+    }
+    table,
+    td {
+      border: 1px solid #15703a;
+    }
+  }
+}

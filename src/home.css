@@ -165,12 +165,9 @@ nav .logo img {
   margin: 20px auto;
 }
 .footer .footer-container .row1 {
-  display: flex;
-  flex-wrap: wrap;
-}
-.footer .footer-container .row1 .item {
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 .footer .footer-container .row1 .item .item-container {
   margin-top: auto;

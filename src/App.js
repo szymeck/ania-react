@@ -8,6 +8,7 @@ import Aktualnosci from "./aktualnosci";
 import Rekrutacja from "./rekrutacja";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 

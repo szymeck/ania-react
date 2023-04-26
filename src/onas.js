@@ -20,7 +20,7 @@ const Onas = () => {
 
     </div>
     <div class="onas2">
-      <div class="onas2-container">
+      {/* <div class="onas2-container">
         <div class="onas2-item">
           <div class="onas2-item-img">
             <img src="./onas-5.jpg" alt=""></img>
@@ -48,19 +48,38 @@ const Onas = () => {
             <p>Komfort każdego dziecka jest dla nas priorytetem, dlatego dużą wagę przywiązujemy do procesu adaptacji. W grupie integracyjnej, dzieci uczą się tego, że każdy ma prawo do swojego tempa pracy, własnego sposobu działania, innego pomysłu na rozwiązanie jakiegoś problemu.</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
     <div class="onas3">
       <div class="onas3-container">
         <div class="onas3-text-container">
-          <Collaps label="Specjaliści" icon="/icon4.png" >
+
+          <Collaps label="Kameralne Grupy" icon="/onas-5.jpg" >
+          <p>Mniej dzieci oznacza bardziej komfortowe warunki do zabawy i nauki.  Kameralna grupa oznacza również mniej infekcji. Początek jesieni oznacza zazwyczaj początek okresu chorób, zwłaszcza jeśli dziecko dopiero zaczyna przygodę z przedszkolem, lub z jakichś względów ma obniżoną odporność.</p>
+          </Collaps>
+          <Collaps label="Adaptacja" icon="/onas-6.jpg" >
+          <p>W kameralnej grupie dziecku łatwiej się odnaleźć wśród mniejszej liczby przedszkolaków, nie czuje się przytłoczone hałasem, a nauczyciel może mu poświęcić więcej uwagi. Podczas wszystkich aktywności, nauczyciele mogą zapewnić każdemu dziecku odpowiednią ilość uwagi. Wesprzeć, gdy coś sprawia trudność, przytulić, kiedy tęskni się za mamą, poczekać, jeśli jakieś zadanie zajmie dziecku więcej czasu.</p>
+          </Collaps>
+          <Collaps label="Komfort każdego dziecka" icon="/onas-7.jpg" >
+          <p>Komfort każdego dziecka jest dla nas priorytetem, dlatego dużą wagę przywiązujemy do procesu adaptacji. W grupie integracyjnej, dzieci uczą się tego, że każdy ma prawo do swojego tempa pracy, własnego sposobu działania, innego pomysłu na rozwiązanie jakiegoś problemu.</p>
+          </Collaps>
+          <Collaps label="Specjaliści" icon="/onas-9.jpg" >
           <p>W naszym  przedszkolu  pracują specjaliści m.in logopeda, fizjoterapeuta , terapeuta SI, pedagog specjalny, psycholog, neurologopeda - wszystkie dzieci są pod ich stałą kontrolą. Zajęcia grupowe takie jak gimnastyka czy logorytmika, oprócz frajdy dla dzieci, są również czasem obserwacji przez specjalistę od rozwoju mowy czy prawidłowej postawy. Również dla rodziców jest to duża zaleta, jeśli mają  Państwo jakiekolwiek pytania lub wątpliwości możecie w każdej chwili  na miejscu skonsultować się i poradzić. Dzięki współpracy całego zespołu , Wasze dzieci mają możliwość wszechstronnego rozwoju.</p>
           </Collaps>
-          <Collaps label="Nowoczesne wyposażenie"  icon="/icon5.png">
+          <Collaps label="Nowoczesne wyposażenie"  icon="/onas-10.jpg">
             <p>Nasze Przedszkole to również przestronne -nowocześnie wyposażone sale do zajęć, sala światła  , gabinety do zajęć indywidualnych ( logopedyczny, integracji sensorycznej) oraz nowoczesny Plac Zabaw na terenie Przedszkola. </p>
           </Collaps>
-          <Collaps label="Uczymy tolerancji i akceptacji"  icon="/icon6.png" >
+          <Collaps label="Uczymy tolerancji i akceptacji"  icon="/onas-11.jpg" >
           <p>Przedszkole  integracyjne uczy dzieci tolerancji i akceptacji. Każdy maluch jest inny, ale jest akceptowany przez grupę takim jakim jest. Nie chodzi tylko o dzieci z trudnościami rozwojowymi - przecież  każdemu przedszkolakowi czasem jest trudno sobie z czymś poradzić, boi się czegoś, potrzebuje większego wsparcia, ma gorszy dzień, nie wie jak coś zrobić, bo nigdy nie miał z tym styczności etc. W grupie integracyjnej, dzieci uczą się tego, że każdy ma prawo do swojego tempa pracy, własnego sposobu działania, innego pomysłu na rozwiązanie jakiegoś problemu, wyglądania inaczej, porozumiewania się w mniej standardowy sposób, okazywania emocji bardziej lub mniej ekspresyjnie etc. Jeśli przedszkolak akceptuje innych takimi, jakimi są, łatwiej mu jest również zaakceptować siebie i budować pozytywną samoocenę. Kończąc przedszkole wie, że nie wszyscy są doskonali. Nie boi się inności, jest otwarty i empatyczny. </p>
+          </Collaps>
+          <Collaps label="Dodatkowe zajęcia w ramach czesnego"  icon="/onas-12.jpg" >
+          <p> </p>
+          </Collaps>
+          <Collaps label="Stały kontakt Nauczyciel - Rodzic"  icon="/onas-13.jpg" >
+          <p></p>
+          </Collaps>
+          <Collaps label="Zajęcia indywidualne"  icon="/onas-14.jpg" >
+          <p> </p>
           </Collaps>
           
         </div>
@@ -68,7 +87,7 @@ const Onas = () => {
       </div>
     </div>
     <div class="onas4">
-      <div class="onas4-container">
+      {/* <div class="onas4-container">
         <div class="onas4-text-container">
           <div class="onas4-title">
             <div class="onas4-title-text">
@@ -86,7 +105,7 @@ const Onas = () => {
                 <h4>Jesteśmy tu dla Państwa także pomagajmy sobie, aby nasi najmłodsi dostali najlepsze na co zasługują. </h4>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
     <div class="onas5">
       <div class="onas5-container">

@@ -179,12 +179,11 @@ nav {
     padding: 40px 20px 0 20px;
     margin: 20px auto;
     .row1 {
-      display: flex;
-      flex-wrap: wrap;
-
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
       .item {
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%;
+        
 
         .item-container {
           margin-top: auto;
