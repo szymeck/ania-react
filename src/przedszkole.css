@@ -41,6 +41,7 @@
   margin: 20px 0px;
   box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+  min-height: 200px;
 }
 .przedszkole1 .grupy .grupa-1 .grupa-col1 .grupa-img,
 .przedszkole1 .grupy .grupa-2 .grupa-col1 .grupa-img,
