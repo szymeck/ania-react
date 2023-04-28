@@ -1,5 +1,6 @@
 import React from 'react';
 import Bar from './components/Bar';
+import Heading from './components/Heading';
 import Collaps from './components/Collaps';
 import './onas.css';
 
@@ -10,9 +11,7 @@ const Onas = () => {
       <Bar title={'O nas'}/>
       <div class="onas1">
       
-<div class="onas1-title">
-  <h2>Nasze atuty </h2>
-</div>
+      <Heading title={"Nasze atuty"} />
   
   <div class="onas1-text">Naszym celem jest zapewnienie wszystkim dzieciom wyjątkowych warunków, sprzyjających bezpiecznej oraz twórczej zabawie i nauce. Przygotowujemy dzieci do dalszego rozwoju i kolejnego etapu edukacji, jakim jest szkoła.
     Pragniemy przekazywać dzieciom zasady tolerancji i akceptacji, kształtując dobre nawyki oraz zachowania oparte na współpracy z rówieśnikami. Zachęcamy do podejmowania działań poprzez kreatywne zabawy i inspirujące metody nauczania.</div>
@@ -109,14 +108,14 @@ const Onas = () => {
     </div>
     <div class="onas5">
       <div class="onas5-container">
-        <div class="onas5-title">
+      <Heading title={"Misja, wizja, cele"} />
           <div class="onas5-title-text">
-<h2>Misja, wizja, cele</h2>
+
 <p> Niepubliczne Przedszkole Integracyjne „ Ania z Zielonego Wzgórza” powstało z myślą o Was i waszych potrzebach. Chcemy abyście byli pewni , że Wasze dziecko jest pod opieką wykwalifikowanej kadry, ma zapewnioną potrzebną terapię oraz zajęcia zgodne z jego potrzebami. Aby każde dziecko i rodzic mógł u nas znaleźć wsparcie, oraz zajęcia prowadzone przez zespół specjalistów.
   Zdecydowaliśmy się na integrację, gdyż uważamy, że jest to najlepsza forma nauki w wieku przedszkolnym. 
   Grupy są małe, a opieka indywidualnie  dobrana do wymagań danego dziecka. </p>
           </div>
-        </div>
+        
         <div class="container-3">
           <div class="row-1">
             <div class="row-1-item1">

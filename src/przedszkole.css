@@ -2,32 +2,40 @@
   margin: 20px auto;
   max-width: 1600px;
   padding: 0 20px;
-  padding-bottom: 40px;
-}
-.przedszkole1 .przedszkole1-title {
-  position: relative;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  margin: 20px auto;
-  max-width: 90px;
 }
 .przedszkole1 .przedszkole1-title h2 {
-  position: relative;
-  font-weight: 900;
-  font-size: 30px;
-  color: #1a6136;
-  margin-left: auto;
-  margin-right: auto;
+  line-height: 36px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #383838;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr -webkit-max-content 1fr;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  max-width: 350px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px 20px;
+  box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
 }
-.przedszkole1 .przedszkole1-title h2::after {
+.przedszkole1 .przedszkole1-title h2:before {
+  content: " ";
   display: block;
-  content: "";
-  width: 85px;
-  height: 2px;
-  background: black;
-  position: absolute;
-  bottom: -8px;
-  left: 0;
+  border-bottom: 3px solid #ffad33;
+  height: 1px;
+  margin: 0 20px 0 0;
+}
+.przedszkole1 .przedszkole1-title h2:after {
+  content: " ";
+  display: block;
+  border-top: 3px solid #ffad33;
+  height: 1px;
+  margin: 0 0 0 20px;
 }
 .przedszkole1 .grupy {
   max-width: 1200px;
@@ -116,32 +124,42 @@
 .przedszkole2 {
   margin: 20px auto;
   max-width: 1240px;
-  padding-bottom: 40px;
 }
 .przedszkole2 .przedszkole2-title {
-  padding-bottom: 20px;
-  position: relative;
-  padding-bottom: 20px;
-  margin: 20px auto;
-  max-width: 130px;
+  margin-bottom: 20px;
 }
 .przedszkole2 .przedszkole2-title h2 {
-  position: relative;
-  font-weight: 900;
-  font-size: 30px;
-  color: #ffad33;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #383838;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr -webkit-max-content 1fr;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  max-width: 350px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
 }
-.przedszkole2 .przedszkole2-title h2::after {
+.przedszkole2 .przedszkole2-title h2:before {
+  content: " ";
   display: block;
-  content: "";
-  width: 130px;
-  height: 2px;
-  background: black;
-  position: absolute;
-  bottom: -8px;
-  left: 0;
+  border-bottom: 3px solid #ffad33;
+  height: 1px;
+  margin: 0 20px 0 0;
+}
+.przedszkole2 .przedszkole2-title h2:after {
+  content: " ";
+  display: block;
+  border-top: 3px solid #ffad33;
+  height: 1px;
+  margin: 0 0 0 20px;
 }
 .przedszkole2 .plan {
   margin-inline: auto;
@@ -151,6 +169,7 @@
   border-radius: 8px;
   box-shadow: inset 0 0 0 #000000, 0 0 0.8em #000000;
   margin: 0 20px;
+  margin-top: 20px;
 }
 .przedszkole2 .plan .plan-img {
   max-height: 200px;
@@ -207,38 +226,49 @@
 
 .przedszkole3 {
   background-color: rgba(255, 173, 51, 0.2274509804);
-  padding: 30px 20px;
+  padding: 20px;
 }
 .przedszkole3 .przedszkole3-container {
-  margin: 20px auto;
+  margin: 0 auto;
   max-width: 1200px;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
-}
-.przedszkole3 .przedszkole3-container .przedszkole3-title {
-  position: relative;
-  margin: 20px auto;
-  max-width: 100px;
+  box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
 }
 .przedszkole3 .przedszkole3-container .przedszkole3-title h2 {
-  position: relative;
-  font-weight: 900;
-  font-size: 30px;
-  color: #1a6136;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #383838;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr -webkit-max-content 1fr;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  max-width: 350px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
 }
-.przedszkole3 .przedszkole3-container .przedszkole3-title h2::after {
+.przedszkole3 .przedszkole3-container .przedszkole3-title h2:before {
+  content: " ";
   display: block;
-  content: "";
-  width: 80px;
-  height: 2px;
-  background: black;
-  position: absolute;
-  bottom: -8px;
-  left: 0;
+  border-bottom: 3px solid #ffad33;
+  height: 1px;
+  margin: 0 20px 0 0;
+}
+.przedszkole3 .przedszkole3-container .przedszkole3-title h2:after {
+  content: " ";
+  display: block;
+  border-top: 3px solid #ffad33;
+  height: 1px;
+  margin: 0 0 0 20px;
 }
 .przedszkole3 .przedszkole3-container .przedszkole3-item {
   display: grid;
@@ -266,29 +296,38 @@
   padding: 0 20px;
   padding-top: 10px;
 }
-.przedszkole4 .przedszkole4-title {
-  position: relative;
-  padding-bottom: 20px;
-  margin: 20px auto;
-  max-width: 240px;
-}
 .przedszkole4 .przedszkole4-title h2 {
-  position: relative;
-  font-weight: 900;
-  font-size: 30px;
-  color: #ffad33;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #383838;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr -webkit-max-content 1fr;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  max-width: 350px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
 }
-.przedszkole4 .przedszkole4-title h2::after {
+.przedszkole4 .przedszkole4-title h2:before {
+  content: " ";
   display: block;
-  content: "";
-  width: 240px;
-  height: 2px;
-  background: black;
-  position: absolute;
-  bottom: -8px;
-  left: 0;
+  border-bottom: 3px solid #ffad33;
+  height: 1px;
+  margin: 0 20px 0 0;
+}
+.przedszkole4 .przedszkole4-title h2:after {
+  content: " ";
+  display: block;
+  border-top: 3px solid #ffad33;
+  height: 1px;
+  margin: 0 0 0 20px;
 }
 .przedszkole4 .przedszkole4-container {
   margin: 20px auto;
@@ -315,4 +354,72 @@
 .przedszkole4 .przedszkole4-container table,
 .przedszkole4 .przedszkole4-container td {
   border: 1px solid #15703a;
+}
+
+.przedszkole5 {
+  padding-top: 20px;
+  background-color: rgba(26, 97, 54, 0.1176470588);
+}
+.przedszkole5 .przedszkole5-title {
+  padding-top: 20px;
+}
+.przedszkole5 .przedszkole5-title h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #383838;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr -webkit-max-content 1fr;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  max-width: 350px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+.przedszkole5 .przedszkole5-title h2:before {
+  content: " ";
+  display: block;
+  border-bottom: 3px solid #ffad33;
+  height: 1px;
+  margin: 0 20px 0 0;
+}
+.przedszkole5 .przedszkole5-title h2:after {
+  content: " ";
+  display: block;
+  border-top: 3px solid #ffad33;
+  height: 1px;
+  margin: 0 0 0 20px;
+}
+.przedszkole5 .image-gallery {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1400px;
+  z-index: 5;
+}
+.przedszkole5 .image-gallery-thumbnails .image-gallery-thumbnails-container {
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+}
+.przedszkole5 .image-gallery-thumbnail.active,
+.przedszkole5 .image-gallery-thumbnail:focus {
+  border: 4px solid #1a6136 !important;
+}
+.przedszkole5 .image-gallery-thumbnail:hover {
+  border: 4px solid #1a6136 !important;
+}
+.przedszkole5 .image-gallery-icon:hover {
+  color: #1a6136 !important;
+}
+.przedszkole5 .image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(100vh - 115px) !important;
 }/*# sourceMappingURL=przedszkole.css.map */

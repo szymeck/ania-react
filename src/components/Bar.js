@@ -10,7 +10,7 @@ function Bar({title}){
       <div class="container">
         <div class="row">
           <div class="row-text">
-            <h2>{title}</h2>
+            <h1>{title}</h1>
           </div>
           <div class="elem-8">
           <img src="./elem-8.svg" alt=""></img>
