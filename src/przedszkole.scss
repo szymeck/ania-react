@@ -421,8 +421,9 @@ $highlite: #ff564f;
     margin: 0 auto;
     padding: 20px;
     max-width: 1400px;
-    z-index: 5;
+    
   }
+  
   .image-gallery-thumbnails .image-gallery-thumbnails-container {
     cursor: pointer;
     text-align: center;
@@ -430,6 +431,7 @@ $highlite: #ff564f;
     position: relative;
     display: inline-block;
     padding: 0;
+    z-index: 5!important;
   }
   .image-gallery-thumbnail.active,
   .image-gallery-thumbnail:focus {

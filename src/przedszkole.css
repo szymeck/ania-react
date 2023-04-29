@@ -400,7 +400,6 @@
   margin: 0 auto;
   padding: 20px;
   max-width: 1400px;
-  z-index: 5;
 }
 .przedszkole5 .image-gallery-thumbnails .image-gallery-thumbnails-container {
   cursor: pointer;
@@ -409,6 +408,7 @@
   position: relative;
   display: inline-block;
   padding: 0;
+  z-index: 5 !important;
 }
 .przedszkole5 .image-gallery-thumbnail.active,
 .przedszkole5 .image-gallery-thumbnail:focus {
