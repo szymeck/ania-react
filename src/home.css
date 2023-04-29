@@ -41,7 +41,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  z-index: 200;
+  z-index: 25;
   padding: 0.8rem 2.5rem;
   background-color: transparent;
   position: fixed;

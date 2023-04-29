@@ -447,3 +447,10 @@ $highlite: #ff564f;
     max-height: calc(95vh - 80px) !important;
   }
 }
+.image-gallery-content.fullscreen {
+  background: #000;
+  z-index: 30;
+}
+.image-gallery-fullscreen-button{
+  display: none;
+}
