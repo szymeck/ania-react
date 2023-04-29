@@ -127,6 +127,8 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 .onas3 .onas3-container .onas3-text-container .collaps .toggle {
   background-color: #1a6136;
