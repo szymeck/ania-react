@@ -37,8 +37,7 @@ function Footer() {
                   <li><i class="fa fa-calendar" aria-hidden="true"></i>  Godziny otwarcia: Poniedziałek - Piątek w godzinach 8 - 18 </li>
                 </ul>
                 <ul class="item-social">
-                  <il></il>
-                  <il></il>
+                  
                 </ul>
               </div>
             </div>

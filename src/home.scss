@@ -25,6 +25,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+  background-color: white;
 }
 button {
   font-family: "Roboto", sans-serif;
@@ -84,7 +85,7 @@ nav {
     }
   }
   .links-mobile {
-    width: 210px;
+    width: 260px;
     display: flex;
     justify-content: flex-end;
     // transition: all 0.1s ease-in;
@@ -92,15 +93,21 @@ nav {
       display: none;
     }
   }
+  a{
+    display: flex;
   .logo {
     display: flex;
-    width: 210px;
+    width: 260px;
     transition: all 0.2s ease;
-
-    img {
-      width: 210px;
-      transition: all 0.2s ease;
+    
+      img {
+        width: 260px;
+        transition: all 0.2s ease;
+        margin: auto 0;
+      }
     }
+
+    
   }
 }
 .navbar-scroll {
@@ -127,7 +134,7 @@ nav {
     color: $font-color;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background-color: white;
+    background-color: transparent;
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     grid-template-rows: 27px 0;
@@ -135,11 +142,11 @@ nav {
     align-items: center;
     border-radius: 10px;
     padding: 20px 20px;
-    border: solid 2px $font-color;
+    
     margin: 0 auto;
     position: relative;
     z-index: 10;
-    box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.5);
+   
   }
   h2:before {
     content: " ";

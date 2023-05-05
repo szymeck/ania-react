@@ -305,8 +305,9 @@ function Przedszkole() {
           <div className="foot"></div>
         </div>
       </div>
-      <div className="przedszkole3">
       <Heading title={"Kadra"} />
+      <div className="przedszkole3">
+      
         <div className="przedszkole3-container">
         
           <div className="przedszkole3-item">
@@ -390,8 +391,9 @@ function Przedszkole() {
           </div>
         </div>
       </div>
-      <div className="przedszkole5">
       <Heading title={"Galeria"} />
+      <div className="przedszkole5">
+      
       <ReactImageGallery items={images} />
       </div>
       

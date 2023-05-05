@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import Burger from "./Burger";
 import { useState, useEffect } from "react";
 
+
 function Navbar() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
@@ -60,9 +61,12 @@ function Navbar() {
   return (
     <div>
       <nav className={scrollPosition > 15 ? "navbar-scroll" : "navbar"}>
+        
+      <NavLink onClick={() => handleClick()} to="/">
         <div class="logo">
           <img src="./logo2.png" alt="logo" />
         </div>
+        </NavLink>
         <ul className="links">
           <li>
             <NavLink
@@ -164,8 +168,6 @@ function Navbar() {
             border-radius: 0;
             padding: 0.2rem 0.5rem;
             align-items: center;           
-            
-            display: flex;
             width: 100%;
             justify-content: space-between;
           }

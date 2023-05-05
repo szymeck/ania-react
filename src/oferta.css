@@ -1,0 +1,24 @@
+.oferta1 {
+  position: relative;
+}
+.oferta1 .oferta1-text {
+  margin: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.oferta1 .oferta1-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.oferta1 .oferta1-container .oferta1-item {
+  box-shadow: 3px 3px 10px -2px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border-bottom: 4px solid #1a6136;
+}/*# sourceMappingURL=oferta.css.map */
