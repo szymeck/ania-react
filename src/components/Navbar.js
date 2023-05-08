@@ -179,15 +179,20 @@ function Navbar() {
           nav .links-mobile  {
             padding:10px;
           }
-          nav .logo  {
-            padding:10px;
+          nav a .logo  {
+           
+            width:220px;
+          }
+          nav a .logo img  {
+            
+            width:220px;
           }
           nav .links {
             
             flex-direction:column;
             top:0;
             right:0;
-            height: 410px;
+            height: auto;
             padding-top:13px;
             width: 100%;
             background:white;
