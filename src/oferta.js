@@ -136,7 +136,7 @@ const Oferta = () => {
       <div className="oferta2">
         <div className="oferta2-container">
           <div className="oferta2-img">
-            <img src="./oferta-11.png" alt="img"></img>
+            <img src="./logo22.png" alt="img"></img>
           </div>
           <div className="oferta2-text">
             <h3>

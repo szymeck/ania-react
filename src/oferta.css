@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 .oferta1 .container-title h2 {
-  color: #ffffff;
+  color: black;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -15,9 +15,7 @@
   text-align: center;
   border-radius: 8px;
   padding: 5px 0;
-  background-color: #1a6136;
   margin: 0 20px;
-  box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.3);
 }
 .oferta1 .oferta1-text {
   margin: 20px;
