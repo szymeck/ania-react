@@ -96,6 +96,38 @@ function Przedszkole() {
       original: "/gallery-20.jpg",
       thumbnail: "/gallery-20.jpg",
     },
+    {
+      original: "/gallery-21.jpg",
+      thumbnail: "/gallery-21.jpg",
+    },
+    {
+      original: "/gallery-22.jpg",
+      thumbnail: "/gallery-22.jpg",
+    },
+    {
+      original: "/gallery-23.jpg",
+      thumbnail: "/gallery-23.jpg",
+    },
+    {
+      original: "/gallery-24.jpg",
+      thumbnail: "/gallery-24.jpg",
+    },
+    {
+      original: "/gallery-25.jpg",
+      thumbnail: "/gallery-25.jpg",
+    },
+    {
+      original: "/gallery-26.jpg",
+      thumbnail: "/gallery-26.jpg",
+    },
+    {
+      original: "/gallery-27.jpg",
+      thumbnail: "/gallery-27.jpg",
+    },
+    {
+      original: "/gallery-28.jpg",
+      thumbnail: "/gallery-28.jpg",
+    },
   ];
 
   return (
