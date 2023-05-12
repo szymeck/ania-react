@@ -107,8 +107,9 @@ const Onas = () => {
       </div> */}
     </div>
     <div class="onas5">
+    <Heading title={"Misja, wizja, cele"} />
       <div class="onas5-container">
-      <Heading title={"Misja, wizja, cele"} />
+      
           <div class="onas5-title-text">
 
 <p> Niepubliczne Przedszkole Integracyjne „ Ania z Zielonego Wzgórza” powstało z myślą o Was i waszych potrzebach. Chcemy abyście byli pewni , że Wasze dziecko jest pod opieką wykwalifikowanej kadry, ma zapewnioną potrzebną terapię oraz zajęcia zgodne z jego potrzebami. Aby każde dziecko i rodzic mógł u nas znaleźć wsparcie, oraz zajęcia prowadzone przez zespół specjalistów.

@@ -152,13 +152,10 @@
   margin: 20px 20px;
 }
 
-.onas5 {
-  padding: 0 20px;
-}
 .onas5 .onas5-container {
   margin: 20px auto;
   max-width: 1200px;
-  padding-bottom: 40px;
+  padding: 0 20px 40px 20px;
 }
 .onas5 .onas5-container .onas5-title-text {
   margin: 20px auto;
@@ -166,39 +163,6 @@
 }
 .onas5 .onas5-container .onas5-title-text p {
   margin: 20px;
-}
-.onas5 .onas5-container .onas5-title h2 {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  color: #383838;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background-color: white;
-  display: grid;
-  grid-template-columns: 1fr -webkit-max-content 1fr;
-  grid-template-columns: 1fr max-content 1fr;
-  grid-template-rows: 27px 0;
-  max-width: 350px;
-  align-items: center;
-  border-radius: 10px;
-  padding: 10px 20px;
-  box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
-}
-.onas5 .onas5-container .onas5-title h2:before {
-  content: " ";
-  display: block;
-  border-bottom: 3px solid #ffad33;
-  height: 1px;
-  margin: 0 20px 0 0;
-}
-.onas5 .onas5-container .onas5-title h2:after {
-  content: " ";
-  display: block;
-  border-top: 3px solid #ffad33;
-  height: 1px;
-  margin: 0 0 0 20px;
 }
 .onas5 .container-3 {
   max-width: 1300px;

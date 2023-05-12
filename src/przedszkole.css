@@ -1,11 +1,11 @@
 .przedszkole1 {
   margin: 20px auto;
   max-width: 1600px;
-  padding: 0 20px;
 }
 .przedszkole1 .grupy {
   max-width: 1200px;
   margin: auto;
+  padding: 0 20px;
 }
 .przedszkole1 .grupy .grupa-1,
 .przedszkole1 .grupy .grupa-2,
