@@ -190,7 +190,7 @@ const Oferta = () => {
               <h3> W celu zgłoszenia dziecka
               <Link onClick={() => handleClick()} to="/kontakt">
               <a class="start__free" href="/"
-                >skontakuj sie z nami</a></Link></h3>
+                >skontaktuj sie z nami</a></Link></h3>
               
             </div>
           </div>

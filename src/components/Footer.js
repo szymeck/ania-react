@@ -28,13 +28,13 @@ function Footer() {
             <div class="item">
               <div class="item-container">
                 <div class="item-title">
-                  <h3>Skontkaktuj się</h3>
+                  <h3>Skontaktuj się</h3>
                 </div>
                 <ul class="item-list">
-                  <li><i class="fa fa-phone" aria-hidden="true"></i>  Telefon: +000 0000 0000</li>
-                  <li><i class="fa fa-envelope" aria-hidden="true"></i>  E-Mail: ania@gmail.com</li>
-                  <li><i class="fa fa-home" aria-hidden="true"></i>  Adres: Sokołow Podlaski 08-300, ul. Prosta 53</li>
-                  <li><i class="fa fa-calendar" aria-hidden="true"></i>  Godziny otwarcia: Poniedziałek - Piątek w godzinach 8 - 18 </li>
+                  <li><i class="fa fa-phone" aria-hidden="true"></i>  Telefon: 728 858 838</li>
+                  <li><i class="fa fa-envelope" aria-hidden="true"></i>  E-Mail: info@przedszkoleania.pl</li>
+                  <li><i class="fa fa-home" aria-hidden="true"></i>  Adres: Sokołów Podlaski 08-300, ul. Prosta 53</li>
+                  <li><i class="fa fa-calendar" aria-hidden="true"></i>  Godziny otwarcia: Poniedziałek - Piątek w godzinach 7 - 18 </li>
                 </ul>
                 <ul class="item-social">
                   

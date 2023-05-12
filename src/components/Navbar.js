@@ -162,6 +162,12 @@ function Navbar() {
       </nav>
       <style jsx>{`
         @media (max-width: 1130px) {
+          .strona-glowna{
+            padding-top:110px;
+          }
+          .bar{
+            margin-top:110px;
+          }
           nav {
             margin-left: 0;
             margin-right: 0;
