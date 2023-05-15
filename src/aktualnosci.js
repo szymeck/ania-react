@@ -21,7 +21,7 @@ const Aktualnosci = () => {
                 handleClick();
               }} ><div className="aktualnosci-item">
             <div className="item-img">
-              <img src="./aktualnosci-1.jpg"></img>
+              <img src="./aktualnosci-1.jpg" alt="img"></img>
             </div>
             <div className="item-text">
               <h3>
@@ -33,7 +33,7 @@ const Aktualnosci = () => {
           </Link >
           <div className="aktualnosci-item">
             <div className="item-img">
-              <img src="./aktualnosci-2.jpg"></img>
+              <img src="./aktualnosci-2.jpg" alt="img"></img>
             </div>
             <div className="item-text">
               <h3>
