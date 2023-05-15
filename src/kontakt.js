@@ -53,7 +53,7 @@ function Kontakt() {
                 
               </div>
               <div className="facebook">
-                <a href="https://www.facebook.com/profile.php?id=100092726312673" target="_blank" rel="noreferrer"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100092726312673" target="_blank" rel="noreferrer"><i class="fa fa-facebook-official" aria-hidden="true"></i> </a>
                 </div>
             </div>
           </div>
