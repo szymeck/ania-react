@@ -1,6 +1,14 @@
 import React from 'react';
 import './home.css';
+import { Link } from "react-router-dom";
 const Home = () => {
+  function handleClick() {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
   return (
     
     <div>
@@ -19,8 +27,8 @@ const Home = () => {
             <p>Lucy Maud Montgomery,
 "Ania z Zielonego Wzgórza"</p>
             <div class="buttons">
-              <button class="btn">O Nas</button>
-              <button class="btn">Zapisz się</button>
+            <Link onClick={() => handleClick()} to="/onas" ><button class="btn">O Nas</button></Link>
+            <Link onClick={() => handleClick()} to="/rekrutacja" ><button class="btn">Zapisz się</button></Link>
           </div>
           </div>
           <div class="col-2">
@@ -42,16 +50,13 @@ const Home = () => {
           </div>
         </div>
         <div class="col-2">
-          <div class="elem-4">
-            <img src="./elem-4.svg" alt="elem4" />
-          </div>
+          
           <div class="col-2-text">
             <h5>Przedszkole dla wszystkich</h5>
             <h2>Dowiedz się wiecej o nas</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Dolores eos ullam iure quasi, dolorum dolore officiis aut
-              aliquam nulla quisquam.
+            Jesteśmy pierwszym przedszkolem integracyjnym w Sokołowie Podlaskim w pełni przystosowanym do realizacji
+zadań edukacyjno-wychowawczych dla wszystkich dzieci, również tych ze specjalnymi potrzebami edukacyjnymi.
             </p>
           </div>
           <ul class="col-2-list">
@@ -71,7 +76,7 @@ const Home = () => {
                   d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
                 ></path>
               </svg>
-              Cecha
+              Tworzone grupy są kameralne
             </li>
             <li>
               <svg
@@ -89,7 +94,7 @@ const Home = () => {
                   d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
                 ></path>
               </svg>
-              Cecha
+              Wszystkie zajęcia ( również te dodatkowe ) realizowane są w ramach czesnego
             </li>
             <li>
               <svg
@@ -107,7 +112,7 @@ const Home = () => {
                   d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
                 ></path>
               </svg>
-              Cecha
+              Oferujemy kompleksową, codzienną terapię
             </li>
             <li>
               <svg
@@ -125,19 +130,18 @@ const Home = () => {
                   d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
                 ></path>
               </svg>
-              Cecha
+              Pracujemy również w wakacje oraz ferie zimowe
             </li>
           </ul>
           <div class="col-2-text2">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae quas commodi esse natus aliquid pariatur officia
-              quod quidem laborum hic!
+            Zadbamy o to, aby Twoje dziecko czuło się bezpiecznie i komfortowo. Rodzinna atmosfera , dużo zabawy i
+fascynujących zajęć, a także indywidulane podejście do każdego dziecka- to właśnie wyróżnia nasze
+przedszkole.
             </p>
             <h5 class="have__q3">
-              Masz jakies pytania?<a class="start__free" href="/"
-                >Skontakuj sie z nami</a
-              >
+              Masz jakies pytania?<Link onClick={() => handleClick()} to="/kontakt"><a class="start__free" href="/"
+                >Skontaktuj sie z nami</a></Link>
             </h5>
           </div>
         </div>
@@ -157,9 +161,8 @@ const Home = () => {
                 <h5>Zarejestruj się już dziś</h5>
                 <h2>Jesteśmy Najlepszym Wyborem Dla Twojego Dziecka</h2>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fuga, quibusdam. Magni reprehenderit voluptatum ducimus
-                  nobis cum, recusandae nulla officiis enim!
+                Komfort każdego dziecka jest dla nas priorytetem, dlatego dużą wagę przywiązujemy do procesu
+adaptacji. Przygotowujemy dzieci do dalszego rozwoju i kolejnego etapu edukacji, jakim jest szkoła.
                 </p>
               </div>
               <div class="row-1-item2-list">
@@ -170,8 +173,8 @@ const Home = () => {
                   <div class="list-item-text">
                     <h5>Wykwalifokowana opieka</h5>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Vel, repudiandae.
+                    Zespół kreatywnych, zaangażowanych nauczycieli- specjalistów stwarza doskonałe warunki do wspierania
+rozwoju dziecka.
                     </p>
                   </div>
                 </div>
@@ -180,10 +183,10 @@ const Home = () => {
                     <img src="./icon2.png" alt="" />
                   </div>
                   <div class="list-item-text">
-                    <h5>Dopracowny plan zajęć</h5>
+                    <h5>Bogata oferta zajęć</h5>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nulla, delectus!
+                    Stawiamy na rozwój dzieci, tworząc optymalne warunki edukacyjne przy użyciu najnowszych
+technik oraz realizując zajęcia dodatkowe.
                     </p>
                   </div>
                 </div>
@@ -194,8 +197,9 @@ const Home = () => {
                   <div class="list-item-text">
                     <h5>Doskonała infrastruktura</h5>
                     <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing
-                      elit. Aliquid, dolore?
+                    Dysponujemy przestronnymi -nowocześnie wyposażonymi salami zajęć, salą światła , salą do rehabilitacji
+oraz gabinetami ( logopedyczny, integracji sensorycznej) .
+Posiadamy również nowoczesny Plac Zabaw na terenie Przedszkola
                     </p>
                   </div>
                 </div>

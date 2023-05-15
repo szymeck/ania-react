@@ -1,16 +1,51 @@
-import React from 'react';
-import Bar from './components/Bar';
-import Heading from './components/Heading';
-  
+import React from "react";
+import Bar from "./components/Bar";
+import './aktualnosci.css';
+import { Link } from "react-router-dom";
+
 const Aktualnosci = () => {
+  function handleClick() {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
   return (
     <div>
       <Bar title={"Aktualności"} />
-      <Heading title={"Aktualności"} />
-      <h1>Mail us on feedback@geeksforgeeks.org</h1>
-      <h1>Mail us on feedback@geeksforgeeks.org</h1>
+      <div className="aktualnosci">
+        <div className="aktualnosci-container">
+          <Link to="/rekrutacja"
+              onClick={() => {
+                handleClick();
+              }} ><div className="aktualnosci-item">
+            <div className="item-img">
+              <img src="./aktualnosci-1.jpg"></img>
+            </div>
+            <div className="item-text">
+              <h3>
+              RUSZYŁA REKRUTACJA DO NASZEGO PRZEDSZKOLA !!!
+              </h3>
+              <p>Dowiedz się wiecej</p>
+            </div>
+          </div>
+          </Link >
+          <div className="aktualnosci-item">
+            <div className="item-img">
+              <img src="./aktualnosci-2.jpg"></img>
+            </div>
+            <div className="item-text">
+              <h3>
+              ZAPRASZAMY NA DZIEŃ OTWARTY DO NASZEGO PRZEDSZKOLA - JUŻ 10 CZERWCA
+              </h3>
+              <p>... w krótce więcej szczegółów</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
-  
+
 export default Aktualnosci;

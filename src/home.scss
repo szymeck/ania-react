@@ -350,6 +350,9 @@ nav {
         }
         .buttons {
           padding: 10px 20px 2px;
+          a:last-child{
+            margin-left: 20px;
+          }
           .btn {
             cursor: pointer;
             background: transparent;
@@ -370,9 +373,7 @@ nav {
             position: relative;
             z-index: 22;
           }
-          :last-child {
-            margin-left: 20px;
-          }
+          
           :after {
             
             box-sizing: border-box;
@@ -613,7 +614,7 @@ nav {
                 height: 80px;
                 width: 80px;
                 justify-content: center;
-                align-items: center;
+                padding: 15px;
                 display: flex;
                 border-radius: 8%;
                 -webkit-border-radius: 8%;

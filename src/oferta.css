@@ -45,9 +45,8 @@
   position: relative;
 }
 .oferta1 .oferta1-container .oferta1-item .item-content .text {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  inset: 0;
+  margin: auto;
   width: 100%;
   height: 100%;
   display: flex;

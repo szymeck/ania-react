@@ -1,0 +1,168 @@
+$main-color: #1a6136;
+$secondary-color: #ffad33;
+$font-color: #383838;
+$highlite: #ff564f;
+
+.kontakt{
+    background-color: white;
+    margin-top: 20px;
+    .kontakt-container{
+        display: flex;
+       
+        flex-wrap: wrap;
+        max-width: 1100px;
+        justify-content: center;
+        margin:auto;
+        color: #383838;
+        .kontakt-form{
+            flex:1;
+            margin:20px;
+            box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #1a6136;
+            color: white;
+            text-shadow: (0px 1px 3px rgba(0, 0, 0, 0.429));
+            h2{
+                color: $secondary-color;
+            }
+            button{
+                        cursor: pointer;
+                    background: transparent;
+                    color: white;
+                    width: 148px;
+                    height: 50px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 4px;
+                    
+                    display: inline-flex;
+                    border: 2px solid #fff;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    
+                   
+                    position: relative;
+                    z-index: 22;
+                    }
+                    
+                      :after {
+                        
+                        box-sizing: border-box;
+                        content: "";
+                        background: $secondary-color;
+                        border-radius: 4px;
+            
+                        z-index: -1;
+                        transform: scaleX(0);
+                        transform-origin: 0 50%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        transition-property: transform;
+                        transition-timing-function: ease-out;
+                        transition-duration: 0.2s;
+                        position: absolute;
+                      }
+                      :hover::after {
+                        transform: scaleX(1);
+                      }
+                      :hover {
+                        border: $secondary-color;
+                      }
+              
+            
+            
+            
+            
+            .input-control {
+                margin: 1.5rem 0;
+                input, textarea {
+                    border-radius: 30px;
+                    font-weight: inherit;
+                    font-size: inherit;
+                    font-family: inherit;
+                    padding: .8rem 1.1rem;
+                    outline: none;
+                    border: none;
+                    
+                    width: 100%;
+                    
+                    resize: none;
+                }
+            }.i-c-2{
+                display: flex;
+                flex-direction: column;
+                
+            }
+        }
+        .kontakt-info{
+            h2{
+                color: $secondary-color;
+                
+            }
+            h3{
+                margin: 10px 0;
+            }
+            
+            margin:20px;
+            box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
+            text-shadow: (0px 1px 3px rgba(0, 0, 0, 0.429));
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #1a6136;
+            color: white;
+            .kontakt-infowrap{
+                margin:auto 0;
+                .facebook{
+                    margin-top: 30px;
+                    transition: all 0.1s linear;
+                    i{
+                        display: inline-block;
+                        margin: auto 10px;
+                        font-size: 80px;
+                        color: white;
+                        cursor: pointer;
+                        transition: all 0.1s linear;
+                        
+                    }
+                    :hover{
+                        color: $secondary-color !important;
+                        font-size:88px ;
+                        transition: all 0.1s linear;
+                        text-shadow: (0px 3px 5px rgba(0, 0, 0, 0.829));
+                    }
+                    
+                    
+                }
+                
+                .info-item{
+                    margin:15px 0;
+                    display: flex;
+                    .item-icon{
+                        display: inline-block;
+                        margin: auto 10px;
+                        font-size: 25px;
+                        color: $secondary-color;
+                    }
+                    p:first-of-type{
+                        color: $secondary-color;
+                        font-size: 20px;
+                    }
+                }
+            }
+            
+        }
+    }
+    .kontakt-container2{
+        margin: 20px auto 40px;
+        max-width: 1060px;
+        height: 400px;
+        
+        border-radius: 10px;
+        box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.3);
+        
+    }
+}

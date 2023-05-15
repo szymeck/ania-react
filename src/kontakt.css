@@ -1,0 +1,140 @@
+.kontakt {
+  background-color: white;
+  margin-top: 20px;
+}
+.kontakt .kontakt-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  justify-content: center;
+  margin: auto;
+  color: #383838;
+}
+.kontakt .kontakt-container .kontakt-form {
+  flex: 1;
+  margin: 20px;
+  box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #1a6136;
+  color: white;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.429);
+}
+.kontakt .kontakt-container .kontakt-form h2 {
+  color: #ffad33;
+}
+.kontakt .kontakt-container .kontakt-form button {
+  cursor: pointer;
+  background: transparent;
+  color: white;
+  width: 148px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  border: 2px solid #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  position: relative;
+  z-index: 22;
+}
+.kontakt .kontakt-container .kontakt-form :after {
+  box-sizing: border-box;
+  content: "";
+  background: #ffad33;
+  border-radius: 4px;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transition-duration: 0.2s;
+  position: absolute;
+}
+.kontakt .kontakt-container .kontakt-form :hover::after {
+  transform: scaleX(1);
+}
+.kontakt .kontakt-container .kontakt-form :hover {
+  border: #ffad33;
+}
+.kontakt .kontakt-container .kontakt-form .input-control {
+  margin: 1.5rem 0;
+}
+.kontakt .kontakt-container .kontakt-form .input-control input, .kontakt .kontakt-container .kontakt-form .input-control textarea {
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+  width: 100%;
+  resize: none;
+}
+.kontakt .kontakt-container .kontakt-form .i-c-2 {
+  display: flex;
+  flex-direction: column;
+}
+.kontakt .kontakt-container .kontakt-info {
+  margin: 20px;
+  box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.429);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #1a6136;
+  color: white;
+}
+.kontakt .kontakt-container .kontakt-info h2 {
+  color: #ffad33;
+}
+.kontakt .kontakt-container .kontakt-info h3 {
+  margin: 10px 0;
+}
+.kontakt .kontakt-container .kontakt-info .kontakt-infowrap {
+  margin: auto 0;
+}
+.kontakt .kontakt-container .kontakt-info .kontakt-infowrap .facebook {
+  margin-top: 30px;
+  transition: all 0.1s linear;
+}
+.kontakt .kontakt-container .kontakt-info .kontakt-infowrap .facebook i {
+  display: inline-block;
+  margin: auto 10px;
+  font-size: 80px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.kontakt .kontakt-container .kontakt-info .kontakt-infowrap .facebook :hover {
+  color: #ffad33 !important;
+  font-size: 88px;
+  transition: all 0.1s linear;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.829);
+}
+.kontakt .kontakt-container .kontakt-info .kontakt-infowrap .info-item {
+  margin: 15px 0;
+  display: flex;
+}
+.kontakt .kontakt-container .kontakt-info .kontakt-infowrap .info-item .item-icon {
+  display: inline-block;
+  margin: auto 10px;
+  font-size: 25px;
+  color: #ffad33;
+}
+.kontakt .kontakt-container .kontakt-info .kontakt-infowrap .info-item p:first-of-type {
+  color: #ffad33;
+  font-size: 20px;
+}
+.kontakt .kontakt-container2 {
+  margin: 20px auto 40px;
+  max-width: 1060px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.3);
+}/*# sourceMappingURL=kontakt.css.map */
