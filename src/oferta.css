@@ -274,6 +274,7 @@
   }
   .oferta3 .oferta3-container {
     flex-direction: column-reverse;
+    margin: 0 auto 20px;
   }
   .oferta3 .oferta3-container .oferta3-items {
     padding: 0;
