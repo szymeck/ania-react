@@ -3,7 +3,7 @@ import Bar from "./components/Bar";
 import Heading from "./components/Heading";
 import "./przedszkole.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
-import ReactImageGallery from "react-image-gallery";
+
 import "react-image-gallery/styles/css/image-gallery.css";
 
 function Przedszkole() {
