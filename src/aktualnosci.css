@@ -9,6 +9,7 @@
   margin: 20px 0;
 }
 .aktualnosci .aktualnosci-container .aktualnosci-item {
+  width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
   display: flex;
