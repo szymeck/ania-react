@@ -429,7 +429,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    margin: 0 4%;
+    margin: 0 2%;
     .col-1 {
       background-color: $main-color;
       padding: 20px;
@@ -806,4 +806,118 @@ nav {
 }
 .kontakt {
   background-color: dimgrey;
+}
+
+@media only screen and (max-width: 1130px) {
+.bar{
+  overflow: hidden;
+  .elem-8 {
+    position: absolute;
+    left: -82px;
+    bottom: -32px;
+  }
+  .elem-9 {
+    position: absolute;
+    right: -25px;
+    top: 2%;
+   
+  }
+  .container{
+    .row{
+      .row-text{
+        h1:after{
+width: 30px;
+        }
+        h1:before{
+          width: 30px;
+                  }
+      }
+    }
+  }
+}
+
+  .heading{
+  h2{
+    display: block;
+    
+  }
+  h2:before {
+    margin: 0;
+}
+h2:after{
+  margin:0;
+}
+}
+
+  .footer{
+  .footer-container{
+    .row1 {
+      grid-template-columns: 1fr ;
+    }
+    
+  }
+  
+}
+
+.strona-glowna {
+ 
+  
+  .strona-glowna-content {
+    padding: 0;
+    .container{
+      display: flex;
+  flex-direction: column-reverse;
+  grid-gap: 0;
+  .col-1{
+    .buttons{
+      padding: 10px 10px 20px;
+      display: flex;
+      justify-content: center;
+      .btn{
+        width: 120px;
+        height: 40px;
+      }
+    }
+    p{
+      padding: 5px;
+    }
+    p:last-of-type{
+      padding-bottom: 5px;
+    }
+    h1{
+      padding: 5px;
+      font-size: 25px;
+      text-align: center;
+    }
+    h2{
+      padding: 5px;
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+  .col-2{
+    
+    margin:10px;
+  }
+    }
+  }
+}
+
+.o-nas{
+  padding-top: 20px;
+  .container-1{
+    grid-template-columns: 1fr ;
+  }
+}
+.o-nas-2{
+  padding-top:20px;
+.container-3{
+  .row-1{
+    grid-template-columns: 1fr ;
+    .row-1-item1{
+      max-height: 300px;
+    }
+  }
+}
+}
 }

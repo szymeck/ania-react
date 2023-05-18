@@ -393,7 +393,7 @@ nav a .logo img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  margin: 0 4%;
+  margin: 0 2%;
 }
 .o-nas .container-1 .col-1 {
   background-color: #1a6136;
@@ -750,4 +750,89 @@ nav a .logo img {
 
 .kontakt {
   background-color: dimgrey;
+}
+
+@media only screen and (max-width: 1130px) {
+  .bar {
+    overflow: hidden;
+  }
+  .bar .elem-8 {
+    position: absolute;
+    left: -82px;
+    bottom: -32px;
+  }
+  .bar .elem-9 {
+    position: absolute;
+    right: -25px;
+    top: 2%;
+  }
+  .bar .container .row .row-text h1:after {
+    width: 30px;
+  }
+  .bar .container .row .row-text h1:before {
+    width: 30px;
+  }
+  .heading h2 {
+    display: block;
+  }
+  .heading h2:before {
+    margin: 0;
+  }
+  .heading h2:after {
+    margin: 0;
+  }
+  .footer .footer-container .row1 {
+    grid-template-columns: 1fr;
+  }
+  .strona-glowna .strona-glowna-content {
+    padding: 0;
+  }
+  .strona-glowna .strona-glowna-content .container {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-gap: 0;
+  }
+  .strona-glowna .strona-glowna-content .container .col-1 .buttons {
+    padding: 10px 10px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .strona-glowna .strona-glowna-content .container .col-1 .buttons .btn {
+    width: 120px;
+    height: 40px;
+  }
+  .strona-glowna .strona-glowna-content .container .col-1 p {
+    padding: 5px;
+  }
+  .strona-glowna .strona-glowna-content .container .col-1 p:last-of-type {
+    padding-bottom: 5px;
+  }
+  .strona-glowna .strona-glowna-content .container .col-1 h1 {
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .strona-glowna .strona-glowna-content .container .col-1 h2 {
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+  }
+  .strona-glowna .strona-glowna-content .container .col-2 {
+    margin: 10px;
+  }
+  .o-nas {
+    padding-top: 20px;
+  }
+  .o-nas .container-1 {
+    grid-template-columns: 1fr;
+  }
+  .o-nas-2 {
+    padding-top: 20px;
+  }
+  .o-nas-2 .container-3 .row-1 {
+    grid-template-columns: 1fr;
+  }
+  .o-nas-2 .container-3 .row-1 .row-1-item1 {
+    max-height: 300px;
+  }
 }/*# sourceMappingURL=home.css.map */

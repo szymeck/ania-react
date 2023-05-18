@@ -246,4 +246,41 @@
 .oferta3 .oferta3-container .oferta3-items .oferta3-item4 h3 {
   text-align: center;
   margin: auto 0;
+}
+
+@media only screen and (max-width: 1130px) {
+  .oferta1 .oferta1-container {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .oferta1 .oferta1-container .oferta1-item {
+    height: 40vh;
+  }
+  .oferta1 .oferta1-container .oferta1-item .item-content .text {
+    font-size: 16px;
+  }
+  .oferta1 .oferta1-container .oferta1-item:last-child h2 {
+    font-size: 18px;
+  }
+  .oferta2 .oferta2-container {
+    flex-direction: column;
+  }
+  .oferta2 .oferta2-container .oferta2-text {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .oferta2 .oferta2-container .oferta2-text h3 {
+    line-height: 30px;
+  }
+  .oferta3 .oferta3-container {
+    flex-direction: column-reverse;
+  }
+  .oferta3 .oferta3-container .oferta3-items {
+    padding: 0;
+    margin: 20px 0;
+    grid-gap: 3px;
+    height: auto;
+    width: auto;
+    box-shadow: none;
+  }
 }/*# sourceMappingURL=oferta.css.map */

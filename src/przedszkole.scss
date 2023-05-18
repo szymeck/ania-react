@@ -174,43 +174,7 @@ $highlite: #ff564f;
     }
   }
 }
-.przedszkole3 {
-  background-color: #ffad333a;
-  padding: 20px;
-  
 
-  .przedszkole3-container {
-    margin: 0 auto;
-    max-width: 1200px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.5);
-
-    .przedszkole3-item {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 30px;
-      margin: 30px;
-      ul {
-        list-style: none;
-      }
-      i {
-        color: #1a6136;
-      }
-      .przedszkole3-text1 {
-        p {
-          margin-bottom: 15px;
-        }
-      }
-      .przedszkole3-text2 {
-        p {
-          margin-bottom: 15px;
-        }
-      }
-    }
-  }
-}
 .przedszkole4 {
   margin: 20px auto;
   max-width: 1300px;
