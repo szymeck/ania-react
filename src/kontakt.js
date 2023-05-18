@@ -63,7 +63,7 @@ function Kontakt() {
               <h3>Bądź na bieżąco</h3>
             </div>
             <div className="form-form">
-              <form action="" method="POST" accept-charset="UTF-8">
+              <form action="" method="POST" acceptCharset="UTF-8">
                 <div class="form-group">
                   <div class="form-row">
                     <div class="col input-control">
@@ -75,7 +75,7 @@ function Kontakt() {
                         required
                       />
                     </div>
-                    <div class="col input-control">
+                    <div className="col input-control">
                       <input
                         type="email"
                         name="email"
@@ -86,7 +86,7 @@ function Kontakt() {
                     </div>
                   </div>
                 </div>
-                <div class="form-group input-control">
+                <div className="form-group input-control">
                   <textarea
                     placeholder="Treść Wiadomości"
                     class="form-control"
@@ -95,7 +95,7 @@ function Kontakt() {
                     required
                   ></textarea>
                 </div>
-                <div classname="main-button">
+                <div className="main-button">
                   <button type="submit" className="btn">
                     
                     WYŚLIJ
@@ -112,9 +112,9 @@ function Kontakt() {
                   width="100%"
                   height="100%"
                   style={{ border: "0" }}
-                  allowfullscreen=""
+                  allowFullscreen=""
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                   title="map"
                 ></iframe>
         </div>
