@@ -78,6 +78,11 @@ function Footer() {
                     </Link>
                   </li>
                   <li>
+                    <Link onClick={() => handleClick()} to="/galeria">
+                      Galeria
+                    </Link>
+                  </li>
+                  <li>
                     <Link onClick={() => handleClick()} to="/kontakt">
                       Kontakt
                     </Link>

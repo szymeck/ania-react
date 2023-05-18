@@ -157,7 +157,6 @@
 .przedszkole3 {
   background-color: rgba(255, 173, 51, 0.2274509804);
   padding: 20px;
-  margin: 20px 0;
 }
 .przedszkole3 .przedszkole3-container {
   margin: 0 auto;
@@ -221,9 +220,7 @@
 }
 
 .przedszkole5 {
-  margin-top: 20px;
-  padding-top: 20px;
-  background-color: rgba(26, 97, 54, 0.1176470588);
+  margin: 20px;
 }
 .przedszkole5 .image-gallery {
   margin: 0 auto;

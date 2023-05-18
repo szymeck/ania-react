@@ -60,7 +60,7 @@ function Kontakt() {
           <div className="kontakt-form">
             <div className="form-title">
               <h2>SKONTAKTUJ SIE Z NAMI</h2>
-              <h3>Bądź na bierząco</h3>
+              <h3>Bądź na bieżąco</h3>
             </div>
             <div className="form-form">
               <form action="" method="POST" accept-charset="UTF-8">

@@ -143,6 +143,18 @@ function Navbar() {
           </li>
           <li>
             <NavLink
+              to="/galeria"
+              onClick={() => {
+                toggleHamburger();
+                handleClick();
+              }}
+              activeClassName="active"
+            >
+              Galeria
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/kontakt"
               onClick={() => {
                 toggleHamburger();

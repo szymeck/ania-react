@@ -1,0 +1,39 @@
+.przedszkole5 {
+  margin: 20px;
+}
+.przedszkole5 .image-gallery {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1400px;
+}
+.przedszkole5 .image-gallery-thumbnails .image-gallery-thumbnails-container {
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  z-index: 5 !important;
+}
+.przedszkole5 .image-gallery-thumbnail.active,
+.przedszkole5 .image-gallery-thumbnail:focus {
+  border: 4px solid #1a6136 !important;
+}
+.przedszkole5 .image-gallery-thumbnail:hover {
+  border: 4px solid #1a6136 !important;
+}
+.przedszkole5 .image-gallery-icon:hover {
+  color: #1a6136 !important;
+}
+.przedszkole5 .image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(85vh - 80px) !important;
+}
+
+.image-gallery-content.fullscreen {
+  background: #000;
+  z-index: 30;
+}
+
+.image-gallery-fullscreen-button {
+  display: none;
+}/*# sourceMappingURL=galeria.css.map */

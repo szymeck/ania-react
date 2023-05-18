@@ -155,7 +155,7 @@
 .onas5 .onas5-container {
   margin: 20px auto;
   max-width: 1200px;
-  padding: 0 20px 40px 20px;
+  padding: 0 20px 0px 20px;
 }
 .onas5 .onas5-container .onas5-title-text {
   margin: 20px auto;
@@ -240,4 +240,35 @@
   max-height: 80px;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.przedszkole3 {
+  background-color: rgba(255, 173, 51, 0.2274509804);
+  padding: 20px;
+}
+.przedszkole3 .przedszkole3-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 13px -1px rgba(0, 0, 0, 0.5);
+}
+.przedszkole3 .przedszkole3-container .przedszkole3-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  margin: 30px;
+}
+.przedszkole3 .przedszkole3-container .przedszkole3-item ul {
+  list-style: none;
+}
+.przedszkole3 .przedszkole3-container .przedszkole3-item i {
+  color: #1a6136;
+}
+.przedszkole3 .przedszkole3-container .przedszkole3-item .przedszkole3-text1 p {
+  margin-bottom: 15px;
+}
+.przedszkole3 .przedszkole3-container .przedszkole3-item .przedszkole3-text2 p {
+  margin-bottom: 15px;
 }/*# sourceMappingURL=onas.css.map */
