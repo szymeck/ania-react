@@ -187,10 +187,11 @@ const Oferta = () => {
               </p>
             </div>
             <div className="oferta3-text2">
-            <h5 className="have__q3">
-              W celu zgłoszenia dziecka<Link onClick={() => handleClick()} to="/kontakt"><a class="start__free" href="/"
-                >skontaktuj sie z nami</a></Link>
-            </h5>
+            <div className="karta-text">
+          <h3>W celu zgłoszenia dziecka wyślij uzupełnioną kartę zgłoszeniową na <span>info@przedszkoleania.pl</span> lub przynieś ją do sekretariatu Przedszkola</h3><h3><Link onClick={() => handleClick()} to="/kontakt">
+              <a class="start__free" href="/"
+                >skontaktuj sie z nami</a></Link> </h3>
+        </div>
               
             </div>
           </div>
