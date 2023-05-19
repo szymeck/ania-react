@@ -153,6 +153,9 @@
   align-items: center;
   color: #383838;
 }
+.oferta3 .oferta3-container .oferta3-text .oferta3-text2 h5 {
+  font-size: 26px;
+}
 .oferta3 .oferta3-container .oferta3-text .oferta3-text2 .start__free,
 .oferta3 .oferta3-container .oferta3-text .oferta3-text2 .start__free:after {
   transition: all 0.2s linear;
