@@ -9,7 +9,9 @@
   margin: 40px;
 }
 .aktualnosci .aktualnosci-container .aktualnosci-item {
-  width: 140px;
+  height: 140px;
+  width: -moz-min-content;
+  width: min-content;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.5);
@@ -53,6 +55,8 @@
     align-items: center;
   }
   .aktualnosci .aktualnosci-container .aktualnosci-item {
+    height: -moz-fit-content;
+    height: fit-content;
     width: -moz-min-content;
     width: min-content;
   }
