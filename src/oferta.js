@@ -188,8 +188,8 @@ const Oferta = () => {
             </div>
             <div className="oferta3-text2">
             <h5>
-              W celu zgłoszenia dziecka<Link onClick={() => handleClick()} to="/kontakt"><a class="start__free" 
-                >skontaktuj sie z nami</a></Link>
+              W celu zgłoszenia dziecka<Link className="start__free"onClick={() => handleClick()} to="/kontakt">
+                skontaktuj sie z nami</Link>
             </h5>
               
             </div>
