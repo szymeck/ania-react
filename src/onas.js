@@ -305,7 +305,7 @@ const Onas = () => {
                 </li>
                 <li>
                   <i class="fa fa-graduation-cap" aria-hidden="true"></i>{" "}
-                  Muzyko-Terapia
+                  Muzykoterapia
                 </li>
               </ul>
             </div>
