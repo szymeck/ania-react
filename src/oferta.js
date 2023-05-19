@@ -185,14 +185,15 @@ const Oferta = () => {
                 Stale poszerzamy naszą ofertę, by zaspokoić potrzeby i
                 oczekiwania naszych obecnych i przyszłych podopiecznych.
               </p>
-            </div>
-            <div className="oferta3-text2">
-            <h5>
+              <h5>
               W celu zgłoszenia dziecka<Link className="start__free"onClick={handleClick} to="/kontakt">
                 skontaktuj sie z nami</Link>
             </h5>
-              
             </div>
+           
+            
+              
+            
           </div>
 
           <div className="oferta3-items">

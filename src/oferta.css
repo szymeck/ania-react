@@ -146,35 +146,33 @@
 }
 .oferta3 .oferta3-container .oferta3-text .oferta3-text1 {
   text-align: justify;
-}
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 {
-  display: flex;
   margin-top: 40px;
   align-items: center;
   color: #383838;
 }
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 h5 {
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 h5 {
   font-size: 26px;
+  text-align: left;
 }
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 .start__free,
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 .start__free:after {
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 .start__free,
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 .start__free:after {
   transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all linear 0.2s;
 }
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 .start__free {
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 .start__free {
   color: #ff564f;
   padding-left: 10px;
   position: relative;
   font-size: 26px;
 }
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 a,
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 a:focus,
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 a:hover {
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 a,
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 a:focus,
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 a:hover {
   text-decoration: none;
   outline: 0;
 }
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 .start__free:after {
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 .start__free:after {
   position: absolute;
   content: "";
   width: 37%;
@@ -183,11 +181,11 @@
   background: #ff564f;
   bottom: -8px;
 }
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 .start__free:hover:after {
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 .start__free:hover:after {
   width: 100%;
   left: 2%;
 }
-.oferta3 .oferta3-container .oferta3-text .oferta3-text2 .start__free:hover {
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 .start__free:hover {
   letter-spacing: 1.2px;
 }
 .oferta3 .oferta3-container .oferta3-items {
