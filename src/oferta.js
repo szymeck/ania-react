@@ -10,7 +10,7 @@ const Oferta = () => {
 
   function handleClick() {
     window.scrollTo({
-      top: 10,
+      top: 0,
       left: 0,
       behavior: "smooth",
     });
@@ -187,10 +187,10 @@ const Oferta = () => {
               </p>
             </div>
             <div className="oferta3-text2">
-            <h5>
-              W celu zgłoszenia dziecka<Link className="start__free"onClick={() => handleClick()} to="/kontakt">
+            <Link className="start__free"onClick={() => handleClick()} to="/kontakt">
+              W celu zgłoszenia dziecka
                 skontaktuj sie z nami</Link>
-            </h5>
+            
               
             </div>
           </div>
