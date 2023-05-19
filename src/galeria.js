@@ -9,30 +9,7 @@ function Galeria() {
       original: "/gallery-17.jpg",
       thumbnail: "/gallery-17.jpg",
     },
-    {
-      original: "/gallery.jpg",
-      thumbnail: "/gallery.jpg",
-    },
-    {
-      original: "/gallery-1.jpg",
-      thumbnail: "/gallery-1.jpg",
-    },
-    {
-      original: "/gallery-2.jpg",
-      thumbnail: "/gallery-2.jpg",
-    },
-    {
-      original: "/gallery-3.jpg",
-      thumbnail: "/gallery-3.jpg",
-    },
-    {
-      original: "/gallery-4.jpg",
-      thumbnail: "/gallery-4.jpg",
-    },
-    {
-      original: "/gallery-5.jpg",
-      thumbnail: "/gallery-5.jpg",
-    },
+
     {
       original: "/gallery-6.jpg",
       thumbnail: "/gallery-6.jpg",
@@ -61,10 +38,7 @@ function Galeria() {
       original: "/gallery-12.jpg",
       thumbnail: "/gallery-12.jpg",
     },
-    {
-      original: "/gallery-13.jpg",
-      thumbnail: "/gallery-13.jpg",
-    },
+
     {
       original: "/gallery-14.jpg",
       thumbnail: "/gallery-14.jpg",
@@ -130,13 +104,10 @@ function Galeria() {
   return (
     <div>
       <Bar title={"Galeria"} />
-      
+
       <div className="przedszkole5">
         <ReactImageGallery items={images} />
       </div>
-
-      
-      
     </div>
   );
 }

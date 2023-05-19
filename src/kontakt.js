@@ -21,7 +21,7 @@ function Kontakt() {
                 </div>
                 <div className="item-text">
                   <p>Adres</p>
-                  <p>Sokołów Podlaski 08-300, ul. Prosta 53</p>
+                  <p> ul. Prosta 53, 08-300 Sokołów Podlaski</p>
                 </div>
               </div>
               <div className="info-item">
@@ -63,7 +63,7 @@ function Kontakt() {
               <h3>Bądź na bieżąco</h3>
             </div>
             <div className="form-form">
-              <form action="" method="POST" acceptCharset="UTF-8">
+              <form action="https://formcarry.com/s/dEuMa8gmVG" method="POST" acceptCharset="UTF-8">
                 <div class="form-group">
                   <div class="form-row">
                     <div class="col input-control">

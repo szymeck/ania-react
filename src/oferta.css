@@ -21,6 +21,7 @@
   margin: 20px;
   max-width: 1000px;
   margin: 20px auto;
+  text-align: justify;
 }
 .oferta1 .oferta1-text p {
   justify-content: center;
@@ -143,6 +144,9 @@
   display: flex;
   flex-direction: column;
 }
+.oferta3 .oferta3-container .oferta3-text .oferta3-text1 {
+  text-align: justify;
+}
 .oferta3 .oferta3-container .oferta3-text .oferta3-text2 {
   display: flex;
   margin-top: 40px;
@@ -259,6 +263,9 @@
   .oferta1 .oferta1-container .oferta1-item .item-content .text {
     font-size: 16px;
   }
+  .oferta1 .oferta1-container .oferta1-item .item-content .text h2 {
+    padding: 5px;
+  }
   .oferta1 .oferta1-container .oferta1-item:last-child h2 {
     font-size: 18px;
   }
@@ -276,6 +283,9 @@
     flex-direction: column-reverse;
     margin: 0 auto 20px;
   }
+  .oferta3 .oferta3-container .oferta3-text {
+    margin-right: 0px;
+  }
   .oferta3 .oferta3-container .oferta3-items {
     padding: 0;
     margin: 20px 0;
@@ -283,5 +293,21 @@
     height: auto;
     width: auto;
     box-shadow: none;
+  }
+  .oferta3 .oferta3-container .oferta3-items .oferta3-item1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .oferta3 .oferta3-container .oferta3-items .oferta3-item2 {
+    width: 100%;
+    padding: 10px;
+  }
+  .oferta3 .oferta3-container .oferta3-items .oferta3-item3 {
+    width: 100%;
+    padding: 10px;
+  }
+  .oferta3 .oferta3-container .oferta3-items .oferta3-item4 {
+    width: 100%;
+    padding: 10px;
   }
 }/*# sourceMappingURL=oferta.css.map */

@@ -114,7 +114,7 @@
   color: white;
   padding: 20px 30px;
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 22px;
   border: 2px solid #ffad33;
 }
 .przedszkole2 .plan .plan-img img {
@@ -226,4 +226,57 @@
 
 .image-gallery-fullscreen-button {
   display: none;
+}
+
+@media only screen and (max-width: 1130px) {
+  .przedszkole1 .grupy .grupa-1,
+  .przedszkole1 .grupy .grupa-2,
+  .przedszkole1 .grupy .grupa-3 {
+    grid-template-columns: 1fr;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .przedszkole1 .grupy .grupa-1 .grupa-col1 .grupa-img .img-title,
+  .przedszkole1 .grupy .grupa-2 .grupa-col1 .grupa-img .img-title,
+  .przedszkole1 .grupy .grupa-3 .grupa-col1 .grupa-img .img-title {
+    border-bottom-left-radius: 0px;
+  }
+  .przedszkole1 .grupy .grupa-1 .grupa-col1 .grupa-img img,
+  .przedszkole1 .grupy .grupa-2 .grupa-col1 .grupa-img img,
+  .przedszkole1 .grupy .grupa-3 .grupa-col1 .grupa-img img {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+  }
+  .przedszkole1 .grupy .grupa-1 .grupa-col2,
+  .przedszkole1 .grupy .grupa-2 .grupa-col2,
+  .przedszkole1 .grupy .grupa-3 .grupa-col2 {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .przedszkole2 .plan {
+    margin: 0 5px;
+  }
+  .przedszkole2 .plan .plan-img .plan-title {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    width: 80vw;
+  }
+  .przedszkole2 .plan table td {
+    min-width: 110px;
+    padding: 5px;
+    vertical-align: top;
+  }
+  .przedszkole2 .plan table td:first-child {
+    padding-left: 5px;
+  }
+  .przedszkole2 .plan table td:last-child {
+    padding-right: 5px;
+  }
+  .przedszkole5 {
+    margin: 20px 5px;
+  }
+  .przedszkole5 .image-gallery {
+    padding: 0px;
+  }
 }/*# sourceMappingURL=przedszkole.css.map */

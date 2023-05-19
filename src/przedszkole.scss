@@ -132,7 +132,7 @@ $highlite: #ff564f;
         color: white;
         padding: 20px 30px;
         border-radius: 5px;
-        font-size: 24px;
+        font-size: 22px;
         border: 2px solid #ffad33;
       }
       img {
@@ -250,4 +250,69 @@ $highlite: #ff564f;
 }
 .image-gallery-fullscreen-button{
   display: none;
+}
+@media only screen and (max-width: 1130px) {
+
+  .przedszkole1{
+    .grupy{
+      .grupa-1,
+      .grupa-2,
+      .grupa-3 {
+        grid-template-columns: 1fr ;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        .grupa-col1 {
+          .grupa-img{
+            .img-title{
+              border-bottom-left-radius: 0px;
+            }
+            img{
+              border-bottom-left-radius: 0px;
+              border-top-right-radius: 5px;
+            }
+          }
+        }
+        .grupa-col2{
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+        
+      }
+    }
+  }
+  .przedszkole2{
+    .plan{
+      margin: 0 5px;
+      .plan-img{
+        .plan-title{
+          font-size: 22px;
+          padding: 10px;
+          text-align: center;
+          width:80vw;
+          
+        }
+      }
+      table{
+        td {
+          min-width: 110px;
+          padding: 5px;
+          vertical-align: top;
+        }
+        td:first-child {
+          padding-left: 5px;
+        }
+        td:last-child {
+          padding-right: 5px;
+        }
+        
+      }
+    }
+  }
+  .przedszkole5 {
+    margin: 20px 5px;
+    .image-gallery {
+      padding: 0px;
+    }
+    
+  }
 }

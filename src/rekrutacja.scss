@@ -212,6 +212,8 @@ $highlite: #ff564f;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
+            
+            
         }
         .rekrutacja2-text2{
             margin: 20px;
@@ -265,4 +267,75 @@ $highlite: #ff564f;
             }
         }
     }
+}
+
+@media only screen and (max-width: 1130px) {
+  .rekrutacja1{
+    .rekrutacja1-container{
+      flex-direction: column;
+      gap: 10px;
+    }
+    .karta-button{
+      margin: 20px auto;
+      button{
+        
+        &.learn-more{
+          width: 22.5rem;
+          .circle {
+            width: 4.5rem;
+              height: 4.5rem;
+              border-radius:2.2rem;
+              .icon {
+                &.arrow {
+                  &::before {
+                    right: 0.19rem;
+                    border-top: 0.125rem solid $secondary-color;
+                    border-right: 0.125rem solid $secondary-color;
+                  }
+                }
+              }
+              
+          }
+          .button-text{
+            font-size: 1.08rem;
+            left: 40px;
+          }
+        }
+        &:hover{
+          .circle {
+            .icon {
+              &.arrow {
+                transform: translate(0, 0);
+              }
+            }
+          }
+          .button-text {
+            color: black;
+          }
+        }
+      }
+    }
+    .karta-text{
+      text-align: center;
+    }
+  }
+  .rekrutacja2{
+    .rekrutacja2-container{
+      .rekrutacja2-text2{
+        margin: 10px;
+      }
+      .rekrutacja2-text3{
+        margin: 10px;
+      }
+      .rekrutacja2-text4{
+        margin: 10px;
+      }
+      .rekrutacja2-text5{
+        margin: 10px;
+        h3{
+          font-size: 40px;
+        }
+      }
+    }
+  }
 }

@@ -5,6 +5,7 @@
 }
 .onas1 .onas1-text {
   margin: 20px 40px;
+  text-align: justify;
 }
 
 .onas2 {
@@ -163,6 +164,7 @@
 }
 .onas5 .onas5-container .onas5-title-text p {
   margin: 20px;
+  text-align: justify;
 }
 .onas5 .container-3 {
   max-width: 1300px;
@@ -288,13 +290,16 @@
     max-height: 300px;
   }
   .onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content {
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
   }
   .onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item {
     padding-top: 15px;
   }
   .onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item .list-item-text {
-    padding-left: 10px;
+    padding-left: 0px;
+  }
+  .onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item .list-item-icon {
+    margin-top: 0px;
   }
   .przedszkole3 {
     padding: 10px;

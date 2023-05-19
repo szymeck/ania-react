@@ -27,6 +27,7 @@ $highlite: #ff564f;
     margin: 20px;
     max-width: 1000px;
     margin: 20px auto;
+    text-align: justify;
     p{
       justify-content: center;
       align-items: center;
@@ -159,6 +160,9 @@ $highlite: #ff564f;
       margin-right: 50px;
       display: flex;
       flex-direction: column;
+      .oferta3-text1{
+        text-align: justify;
+      }
       .oferta3-text2{
         display: flex;
        margin-top: 40px;
@@ -283,6 +287,9 @@ $highlite: #ff564f;
         .item-content{
           .text{
             font-size: 16px;
+            h2{
+              padding: 5px;
+            }
           }
         }
       }
@@ -310,6 +317,10 @@ $highlite: #ff564f;
     .oferta3-container{
       flex-direction: column-reverse;
       margin:0 auto 20px;
+      .oferta3-text{
+        margin-right: 0px;
+        
+      }
 .oferta3-items{
   padding: 0;
   margin:20px 0;
@@ -317,6 +328,22 @@ $highlite: #ff564f;
   height: auto;
   width: auto;
   box-shadow: none;
+  .oferta3-item1{
+    width: 100%;
+padding: 10px;
+  }
+  .oferta3-item2{
+    width: 100%;
+padding: 10px;
+  }
+  .oferta3-item3{
+    width: 100%;
+padding: 10px;
+  }
+  .oferta3-item4{
+    width: 100%;
+padding: 10px;
+  }
 }
     }
   }

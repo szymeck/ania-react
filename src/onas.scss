@@ -11,6 +11,7 @@ $highlite: #ff564f;
 
   .onas1-text {
     margin: 20px 40px;
+    text-align: justify;
   }
 }
 .onas2 {
@@ -185,6 +186,7 @@ $highlite: #ff564f;
       max-width: 1000px;
       p {
         margin: 20px;
+        text-align: justify;
       }
     }
   }
@@ -334,12 +336,16 @@ $highlite: #ff564f;
         }
         .row-1-item2 {
           .row-1-item2-content {
-            padding: 10px;
+            padding: 10px 10px 10px 0px;
             .row-1-item2-list {
               .list-item {
                 padding-top: 15px;
                 .list-item-text {
-                  padding-left: 10px;
+                  padding-left: 0px;
+                 
+                }
+                .list-item-icon{
+                  margin-top: 0px;
                 }
               }
             }

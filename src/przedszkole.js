@@ -29,7 +29,7 @@ function Przedszkole() {
                   Dzieci uczęszczające do tej grupy (najmłodsze) uczą się
                   komunikacji i współpracy z rówieśnikami w grupie. W trakcie
                   zajęć doskonalimy czynności samoobsługowe oraz higieniczne.
-                  Poznajemy rozwój emocjonalny oraz sposoby jego ich wyrażania.
+                  Poznajemy rozwój emocjonalny oraz sposoby jego wyrażania.
                   Dzieci rozwijają się integralnie.
                 </p>
               </div>
