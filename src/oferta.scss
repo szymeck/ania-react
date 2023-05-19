@@ -160,15 +160,12 @@ $highlite: #ff564f;
       margin-right: 50px;
       display: flex;
       flex-direction: column;
-      .oferta3-text1{
-        text-align: justify;
       
-        
+      .oferta3-text2{
+        display: flex;
        margin-top: 40px;
           align-items: center;
           color: $font-color;
-          h5{font-size: 26px;
-          text-align: left;}
           .start__free,
           .start__free:after {
             transition: all 0.2s linear;

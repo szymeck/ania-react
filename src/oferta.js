@@ -10,7 +10,7 @@ const Oferta = () => {
 
   function handleClick() {
     window.scrollTo({
-      top: 10,
+      top: 0,
       left: 0,
       behavior: "smooth",
     });
@@ -185,15 +185,14 @@ const Oferta = () => {
                 Stale poszerzamy naszą ofertę, by zaspokoić potrzeby i
                 oczekiwania naszych obecnych i przyszłych podopiecznych.
               </p>
-              <h5>
-              W celu zgłoszenia dziecka<Link className="start__free"onClick={handleClick} to="/kontakt">
-                skontaktuj sie z nami</Link>
-            </h5>
             </div>
-           
-            
+            <div className="oferta3-text2">
+              <h3> W celu zgłoszenia dziecka
+              <Link onClick={() => handleClick()} to="/kontakt">
+              <a class="start__free" href="/"
+                >skontaktuj sie z nami</a></Link></h3>
               
-            
+            </div>
           </div>
 
           <div className="oferta3-items">
