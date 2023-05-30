@@ -39,7 +39,7 @@ const Aktualnosci = () => {
               <h3>
               ZAPRASZAMY NA DZIEŃ OTWARTY DO NASZEGO PRZEDSZKOLA - JUŻ 10 CZERWCA
               </h3>
-              <p>... w krótce więcej szczegółów</p>
+              <p>... wkrótce więcej szczegółów</p>
             </div>
           </div>
         </div>

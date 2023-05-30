@@ -248,4 +248,55 @@
   font-size: 26px;
   color: #006127;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 1130px) {
+  .rekrutacja1 .rekrutacja1-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .rekrutacja1 .karta-button {
+    margin: 20px auto;
+  }
+  .rekrutacja1 .karta-button button.learn-more {
+    width: 22.5rem;
+  }
+  .rekrutacja1 .karta-button button.learn-more .circle {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 2.2rem;
+  }
+  .rekrutacja1 .karta-button button.learn-more .circle .icon.arrow::before {
+    right: 0.19rem;
+    border-top: 0.125rem solid #ffad33;
+    border-right: 0.125rem solid #ffad33;
+  }
+  .rekrutacja1 .karta-button button.learn-more .button-text {
+    font-size: 1.08rem;
+    left: 40px;
+  }
+  .rekrutacja1 .karta-button button:hover .circle .icon.arrow {
+    transform: translate(0, 0);
+  }
+  .rekrutacja1 .karta-button button:hover .button-text {
+    color: black;
+  }
+  .rekrutacja1 .karta-text {
+    text-align: center;
+  }
+  .rekrutacja2 .rekrutacja2-container .rekrutacja2-text2 {
+    margin: 10px;
+  }
+  .rekrutacja2 .rekrutacja2-container .rekrutacja2-text3 {
+    margin: 10px;
+  }
+  .rekrutacja2 .rekrutacja2-container .rekrutacja2-text4 {
+    margin: 10px;
+  }
+  .rekrutacja2 .rekrutacja2-container .rekrutacja2-text5 {
+    margin: 10px;
+  }
+  .rekrutacja2 .rekrutacja2-container .rekrutacja2-text5 h3 {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=rekrutacja.css.map */

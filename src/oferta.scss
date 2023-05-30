@@ -27,6 +27,7 @@ $highlite: #ff564f;
     margin: 20px;
     max-width: 1000px;
     margin: 20px auto;
+    text-align: justify;
     p{
       justify-content: center;
       align-items: center;
@@ -159,6 +160,7 @@ $highlite: #ff564f;
       margin-right: 50px;
       display: flex;
       flex-direction: column;
+      
       .oferta3-text2{
         display: flex;
        margin-top: 40px;
@@ -270,4 +272,78 @@ $highlite: #ff564f;
       }
     }
   }
+}
+@media only screen and (max-width: 1130px){
+  
+  .oferta1{
+    .oferta1-container{
+      grid-template-columns:1fr 1fr;
+      grid-gap:10px;
+      .oferta1-item{
+        height: 40vh;
+        
+        .item-content{
+          .text{
+            font-size: 16px;
+            h2{
+              padding: 5px;
+            }
+          }
+        }
+      }
+      .oferta1-item:last-child{
+        h2{
+          font-size: 18px;
+        }
+      }
+      
+    }
+  }
+  .oferta2{
+    .oferta2-container{
+      flex-direction: column;
+      .oferta2-text{
+        margin-top:20px ;
+        margin-left:0;
+        h3{
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  .oferta3{
+    .oferta3-container{
+      flex-direction: column-reverse;
+      margin:0 auto 20px;
+      .oferta3-text{
+        margin-right: 0px;
+        
+      }
+.oferta3-items{
+  padding: 0;
+  margin:20px 0;
+  grid-gap: 3px;
+  height: auto;
+  width: auto;
+  box-shadow: none;
+  .oferta3-item1{
+    width: 100%;
+padding: 10px;
+  }
+  .oferta3-item2{
+    width: 100%;
+padding: 10px;
+  }
+  .oferta3-item3{
+    width: 100%;
+padding: 10px;
+  }
+  .oferta3-item4{
+    width: 100%;
+padding: 10px;
+  }
+}
+    }
+  }
+  
 }

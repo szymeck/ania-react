@@ -156,7 +156,7 @@ const Oferta = () => {
             <h3>
               {" "}
               <i class="fa fa-check-circle" aria-hidden="true"></i> Przyjmujemy
-              dzieci od 2,5 lat do 6 lat
+              dzieci od 2,5 lat do 8 lat
             </h3>
             <h3>
               {" "}

@@ -13,7 +13,7 @@ const Onas = () => {
 
         <div class="onas1-text">
           Naszym celem jest zapewnienie wszystkim dzieciom wyjątkowych warunków,
-          sprzyjających bezpiecznej oraz twórczej zabawie i nauce.
+          sprzyjających bezpiecznej oraz twórczej zabawie&ensp;&ensp; i nauce.
           Przygotowujemy dzieci do dalszego rozwoju i kolejnego etapu edukacji,
           jakim jest szkoła. Pragniemy przekazywać dzieciom zasady tolerancji i
           akceptacji, kształtując dobre nawyki oraz zachowania oparte na
@@ -31,8 +31,8 @@ const Onas = () => {
                 Mniej dzieci oznacza bardziej komfortowe warunki do zabawy i
                 nauki. Kameralna grupa oznacza również mniej infekcji. Początek
                 jesieni oznacza zazwyczaj początek okresu chorób, zwłaszcza
-                jeśli dziecko dopiero zaczyna przygodę z przedszkolem, lub z
-                jakichś względów ma obniżoną odporność.
+                jeśli dziecko dopiero zaczyna przygodę z przedszkolem lub z
+                innych względów ma obniżoną odporność.
               </p>
             </Collaps>
             <Collaps label="Adaptacja" icon="/onas-6.jpg">
@@ -72,7 +72,7 @@ const Onas = () => {
             <Collaps label="Nowoczesne wyposażenie" icon="/onas-10.jpg">
               <p>
                 Nasze Przedszkole to również przestronne -nowocześnie wyposażone
-                sale do zajęć, sala światła , gabinety do zajęć indywidualnych (
+                sale do zajęć, sala światła , gabinety do zajęć indywidualnych    (
                 logopedyczny, integracji sensorycznej) oraz nowoczesny Plac
                 Zabaw na terenie Przedszkola.
               </p>
@@ -118,7 +118,7 @@ const Onas = () => {
                 Rodziców i zapraszamy do rozmowy z Nauczycielami , Specjalistami
                 oraz Dyrektorem naszej placówki. Na bieżąco przekazujemy
                 informacje o postępach rozwojowych dzieci, jak również bardzo
-                chętnie przyjmujemy opinie- które są dla nas bardzo ważne. To
+                chętnie przyjmujemy opinie, które są dla nas bardzo ważne. To
                 dzięki wspólnej rozmowie i współpracy możemy ulepszać nasze
                 działania.
               </p>
@@ -145,11 +145,11 @@ const Onas = () => {
             <p>
               {" "}
               Niepubliczne Przedszkole Integracyjne „ Ania z Zielonego Wzgórza”
-              powstało z myślą o Was i waszych potrzebach. Chcemy abyście byli
+              powstało z myślą o Was i Waszych potrzebach. Chcemy abyście byli
               pewni , że Wasze dziecko jest pod opieką wykwalifikowanej kadry,
               ma zapewnioną potrzebną terapię oraz zajęcia zgodne z jego
               potrzebami. Aby każde dziecko i rodzic mógł u nas znaleźć
-              wsparcie, oraz zajęcia prowadzone przez zespół specjalistów.
+              wsparcie oraz zajęcia prowadzone przez zespół specjalistów.
               Zdecydowaliśmy się na integrację, gdyż uważamy, że jest to
               najlepsza forma nauki w wieku przedszkolnym. Grupy są małe, a
               opieka indywidualnie dobrana do wymagań danego dziecka.{" "}
@@ -305,8 +305,7 @@ const Onas = () => {
                 </li>
                 <li>
                   <i class="fa fa-graduation-cap" aria-hidden="true"></i>{" "}
-                  Szkolenie SIguma Muzyczno – Sensoryczne 'Inspiracja Krainy
-                  Muzycznej'
+                  Muzykoterapia
                 </li>
               </ul>
             </div>

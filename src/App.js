@@ -8,6 +8,7 @@ import Aktualnosci from "./aktualnosci";
 import Rekrutacja from "./rekrutacja";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Galeria from "./galeria";
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
@@ -26,6 +27,7 @@ function App () {
         <Route exact path='/onas' element={<Onas/>} />
         <Route exact path='/przedszkole' element={<Przedszkole/>} />
         <Route exact path='/rekrutacja' element={<Rekrutacja/>} />
+        <Route exact path='/galeria' element={<Galeria/>} />
         <Route exact path='/aktualnosci' element={<Aktualnosci/>} />
         </Routes>
         <Footer/>

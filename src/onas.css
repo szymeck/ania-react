@@ -5,6 +5,7 @@
 }
 .onas1 .onas1-text {
   margin: 20px 40px;
+  text-align: justify;
 }
 
 .onas2 {
@@ -163,6 +164,7 @@
 }
 .onas5 .onas5-container .onas5-title-text p {
   margin: 20px;
+  text-align: justify;
 }
 .onas5 .container-3 {
   max-width: 1300px;
@@ -271,4 +273,39 @@
 }
 .przedszkole3 .przedszkole3-container .przedszkole3-item .przedszkole3-text2 p {
   margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1130px) {
+  .onas3 .onas3-container .onas3-text-container {
+    grid-template-columns: 1fr;
+  }
+  .onas3 .onas3-container .onas3-text-container .collaps .toggle:hover {
+    background-color: #1a6136;
+    box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.5);
+  }
+  .onas5 .container-3 .row-1 {
+    grid-template-columns: 1fr;
+  }
+  .onas5 .container-3 .row-1 .row-1-item1 {
+    max-height: 300px;
+  }
+  .onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content {
+    padding: 10px 10px 10px 0px;
+  }
+  .onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item {
+    padding-top: 15px;
+  }
+  .onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item .list-item-text {
+    padding-left: 0px;
+  }
+  .onas5 .container-3 .row-1 .row-1-item2 .row-1-item2-content .row-1-item2-list .list-item .list-item-icon {
+    margin-top: 0px;
+  }
+  .przedszkole3 {
+    padding: 10px;
+  }
+  .przedszkole3 .przedszkole3-container .przedszkole3-item {
+    grid-template-columns: 1fr;
+    margin: 5px;
+  }
 }/*# sourceMappingURL=onas.css.map */

@@ -34,7 +34,7 @@ const Rekrutacja = () => {
               <h2>Spotkajmy się</h2>
               <p>
                 Zapraszamy Rodziców na spotkanie wraz z dziećmi w celu
-                zaprezentowania naszego nowego Przedszkola, oraz warunków jakimi
+                zaprezentowania naszego nowego Przedszkola,oraz warunków jakimi
                 dysponujemy.
               </p>
             </div>
@@ -65,7 +65,7 @@ const Rekrutacja = () => {
           </a>
         </div>
         <div className="karta-text">
-          <h3>W celu zgłoszenia dziecka, wyślij uzupełnioną kartę zgłoszeniową na <span>info@przedszkoleania.pl</span> , przynieś ją do sekretariatu Przedszkola</h3><h3> lub <Link onClick={() => handleClick()} to="/kontakt">
+          <h3>W celu zgłoszenia dziecka wyślij uzupełnioną kartę zgłoszeniową na <span>info@przedszkoleania.pl</span> lub przynieś ją do sekretariatu Przedszkola</h3><h3><Link onClick={() => handleClick()} to="/kontakt">
               <a class="start__free" href="/"
                 >skontaktuj sie z nami</a></Link> </h3>
         </div>
@@ -96,7 +96,7 @@ jest jednorazowa.</p>
             <h2>Drodzy Rodzice!</h2>
             <p><span>1.</span> W celu zapisania dziecka do Niepublicznego Przedszkola Integracyjnego Ania z Zielonego 
 Wzgórza w Sokołowie Podlaskim prosimy o pobranie i wypełnienie karty zapisu, a następnie
-przesłanie go na adres email: info@przedszkoleania.pl , lub złożenie go w sekretariacie
+przesłanie jej na adres email: info@przedszkoleania.pl lub złożenie jej w sekretariacie
 Przedszkola,
 przy ul. Prostej 53.</p>
 <p><span>2.</span> Złożony formularz jest jednocześnie wyrażeniem zgody na uczestniczenie w postępowaniu
