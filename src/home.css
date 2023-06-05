@@ -186,6 +186,41 @@ nav a .logo img {
   margin: 0 0 0 20px;
 }
 
+.popup {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.662745098);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: auto;
+  z-index: 100;
+}
+.popup .popup-inner {
+  display: flex;
+  flex-direction: column;
+}
+.popup .popup-inner button {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #699e7e;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.popup .popup-inner a {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.popup .popup-inner a img {
+  width: 300px;
+}
+
 .bar {
   margin-top: 126px;
   background: #1a6136;

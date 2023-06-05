@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Home from "./home";
 import Kontakt from "./kontakt";
@@ -9,16 +10,28 @@ import Rekrutacja from "./rekrutacja";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Galeria from "./galeria";
+import Dzienotwarty from "./dzienotwarty";
+import Popup from "./Popup";
+import { useState, useEffect } from 'react';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 
 function App () {
-  
+  const [timedPopup,setTimedPopup] = useState(false);
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      setTimedPopup(true);
+    },5000);
+  },[]);
   return (
     <div>
       
       <Router>
+      <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
+          
+          </Popup>
       <Navbar/>
         <Routes>
           <Route exact path='/' element={<Home/>} />
@@ -29,8 +42,12 @@ function App () {
         <Route exact path='/rekrutacja' element={<Rekrutacja/>} />
         <Route exact path='/galeria' element={<Galeria/>} />
         <Route exact path='/aktualnosci' element={<Aktualnosci/>} />
+        <Route exact path='/dzienotwarty' element={<Dzienotwarty/>} />
+        
         </Routes>
+        
         <Footer/>
+        
       </Router>
         
         </div>

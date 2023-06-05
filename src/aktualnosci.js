@@ -3,6 +3,7 @@ import Bar from "./components/Bar";
 import './aktualnosci.css';
 import { Link } from "react-router-dom";
 
+
 const Aktualnosci = () => {
   function handleClick() {
     window.scrollTo({
@@ -31,17 +32,21 @@ const Aktualnosci = () => {
             </div>
           </div>
           </Link >
-          <div className="aktualnosci-item">
+          <Link to='/dzienotwarty' 
+              onClick={() => {
+                handleClick();
+              }} ><div className="aktualnosci-item">
             <div className="item-img">
-              <img src="./aktualnosci-2.jpg" alt="img"></img>
+              <img src="./plakat-2.jpg" alt="img"></img>
             </div>
             <div className="item-text">
               <h3>
               ZAPRASZAMY NA DZIEŃ OTWARTY DO NASZEGO PRZEDSZKOLA - JUŻ 10 CZERWCA
               </h3>
-              <p>... wkrótce więcej szczegółów</p>
+              <p>Dowiedz się wiecej</p>
             </div>
           </div>
+          </Link>
         </div>
       </div>
     </div>
