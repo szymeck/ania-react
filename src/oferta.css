@@ -269,6 +269,10 @@
   .oferta2 .oferta2-container {
     flex-direction: column;
   }
+  .oferta2 .oferta2-container .oferta2-img {
+    max-width: 330px;
+    margin-inline: auto;
+  }
   .oferta2 .oferta2-container .oferta2-text {
     margin-top: 20px;
     margin-left: 0;

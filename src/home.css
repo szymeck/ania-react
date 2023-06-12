@@ -124,7 +124,6 @@ nav a .logo img {
   text-transform: uppercase;
   background-color: transparent;
   display: grid;
-  grid-template-columns: 1fr -webkit-max-content 1fr;
   grid-template-columns: 1fr max-content 1fr;
   grid-template-rows: 27px 0;
   max-width: 580px;
@@ -160,7 +159,6 @@ nav a .logo img {
   text-transform: uppercase;
   background-color: transparent;
   display: grid;
-  grid-template-columns: 1fr -webkit-max-content 1fr;
   grid-template-columns: 1fr max-content 1fr;
   grid-template-rows: 27px 0;
   max-width: 410px;

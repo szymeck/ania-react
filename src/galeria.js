@@ -6,6 +6,55 @@ import "react-image-gallery/styles/css/image-gallery.css";
 function Galeria() {
   const images = [
     {
+      original: "/image00001.jpg",
+      thumbnail: "/image00001.jpg",
+    },
+    {
+      original: "/image00002.jpg",
+      thumbnail: "/image00002.jpg",
+    },
+    {
+      original: "/image00003.jpg",
+      thumbnail: "/image00003.jpg",
+    },
+    {
+      original: "/image00004.jpg",
+      thumbnail: "/image00004.jpg",
+    },
+    {
+      original: "/image00005.jpg",
+      thumbnail: "/image00005.jpg",
+    },
+    {
+      original: "/image00006.jpg",
+      thumbnail: "/image00006.jpg",
+    },
+    {
+      original: "/image00007.jpg",
+      thumbnail: "/image00007.jpg",
+    },
+    {
+      original: "/image00008.jpg",
+      thumbnail: "/image00008.jpg",
+    },
+    {
+      original: "/image00009.jpg",
+      thumbnail: "/image00009.jpg",
+    },
+    {
+      original: "/image00010.jpg",
+      thumbnail: "/image00010.jpg",
+    },
+    {
+      original: "/image00011.jpg",
+      thumbnail: "/image00011.jpg",
+    },
+    {
+      original: "/image00012.jpg",
+      thumbnail: "/image00012.jpg",
+    },
+
+    {
       original: "/gallery-17.jpg",
       thumbnail: "/gallery-17.jpg",
     },

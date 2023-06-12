@@ -317,6 +317,8 @@ $highlite: #ff564f;
       .onas3-text-container {
         grid-template-columns: 1fr;
         .collaps {
+          max-width: 625px;
+          margin-inline: auto;
           .toggle {
             &:hover {
               background-color: $main-color;

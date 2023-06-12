@@ -230,26 +230,26 @@
 
 @media only screen and (max-width: 1130px) {
   .przedszkole1 .grupy .grupa-1,
-.przedszkole1 .grupy .grupa-2,
-.przedszkole1 .grupy .grupa-3 {
+  .przedszkole1 .grupy .grupa-2,
+  .przedszkole1 .grupy .grupa-3 {
     grid-template-columns: 1fr;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   }
   .przedszkole1 .grupy .grupa-1 .grupa-col1 .grupa-img .img-title,
-.przedszkole1 .grupy .grupa-2 .grupa-col1 .grupa-img .img-title,
-.przedszkole1 .grupy .grupa-3 .grupa-col1 .grupa-img .img-title {
+  .przedszkole1 .grupy .grupa-2 .grupa-col1 .grupa-img .img-title,
+  .przedszkole1 .grupy .grupa-3 .grupa-col1 .grupa-img .img-title {
     border-bottom-left-radius: 0px;
   }
   .przedszkole1 .grupy .grupa-1 .grupa-col1 .grupa-img img,
-.przedszkole1 .grupy .grupa-2 .grupa-col1 .grupa-img img,
-.przedszkole1 .grupy .grupa-3 .grupa-col1 .grupa-img img {
+  .przedszkole1 .grupy .grupa-2 .grupa-col1 .grupa-img img,
+  .przedszkole1 .grupy .grupa-3 .grupa-col1 .grupa-img img {
     border-bottom-left-radius: 0px;
     border-top-right-radius: 5px;
   }
   .przedszkole1 .grupy .grupa-1 .grupa-col2,
-.przedszkole1 .grupy .grupa-2 .grupa-col2,
-.przedszkole1 .grupy .grupa-3 .grupa-col2 {
+  .przedszkole1 .grupy .grupa-2 .grupa-col2,
+  .przedszkole1 .grupy .grupa-3 .grupa-col2 {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   }
