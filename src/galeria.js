@@ -25,14 +25,7 @@ function Galeria() {
       original: "/1-2.jpg",
       thumbnail: "/1-2.jpg",
     },
-    {
-      original: "/4.jpg",
-      thumbnail: "/4.jpg",
-    },
-    {
-      original: "/5.jpg",
-      thumbnail: "/5.jpg",
-    },
+    
     {
       original: "/6.jpg",
       thumbnail: "/6.jpg",
