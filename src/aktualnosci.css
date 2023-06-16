@@ -9,6 +9,7 @@
   margin: 40px;
 }
 .aktualnosci .aktualnosci-container .aktualnosci-item {
+  width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
   display: flex;
@@ -48,11 +49,13 @@
     flex-direction: column;
     margin-inline: auto;
     justify-content: center;
+    max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
     max-width: fit-content;
     align-items: center;
   }
   .aktualnosci .aktualnosci-container .aktualnosci-item .item-text {
+    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }

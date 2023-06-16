@@ -17,7 +17,7 @@ function Popup(props){
       <div className="popup">
         
         <div className="popup-inner">
-        <Link  onClick={()=> {closeT();handleClick();}} to="/dzienotwarty"  ><img src="./plakat-2.jpg" alt="plakat" ></img></Link>
+        <Link  onClick={()=> {closeT();handleClick();}} to="/rekrutacja"  ><img src="./logo512.png" alt="logo"></img><h1>Są jeszcze wolne miejsca na dyżur wakacyjny :)</h1></Link>
             <button onClick={()=> props.setTrigger(false)} className="close-btn">Zamknij</button>
             {props.children}
         </div>

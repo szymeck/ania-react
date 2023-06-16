@@ -124,6 +124,7 @@ nav a .logo img {
   text-transform: uppercase;
   background-color: transparent;
   display: grid;
+  grid-template-columns: 1fr -webkit-max-content 1fr;
   grid-template-columns: 1fr max-content 1fr;
   grid-template-rows: 27px 0;
   max-width: 580px;
@@ -159,6 +160,7 @@ nav a .logo img {
   text-transform: uppercase;
   background-color: transparent;
   display: grid;
+  grid-template-columns: 1fr -webkit-max-content 1fr;
   grid-template-columns: 1fr max-content 1fr;
   grid-template-rows: 27px 0;
   max-width: 410px;
@@ -196,11 +198,24 @@ nav a .logo img {
   height: 100vh;
   width: 100%;
   margin-bottom: auto;
+  margin-inline: auto;
   z-index: 100;
 }
 .popup .popup-inner {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.popup .popup-inner a h1 {
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.829);
+}
+.popup .popup-inner img {
+  display: flex;
+  margin-inline: auto;
 }
 .popup .popup-inner button {
   cursor: pointer;
@@ -210,6 +225,7 @@ nav a .logo img {
   color: white;
   border-radius: 10px;
   font-size: 18px;
+  max-width: 300px;
 }
 .popup .popup-inner a {
   margin-top: auto;

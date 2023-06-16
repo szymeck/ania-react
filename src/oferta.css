@@ -253,7 +253,6 @@
   .oferta1 .oferta1-container {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    padding:5px;
   }
   .oferta1 .oferta1-container .oferta1-item {
     height: 40vh;
