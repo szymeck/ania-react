@@ -31,7 +31,7 @@ function Footer() {
                   <h3>Skontaktuj się</h3>
                 </div>
                 <ul class="item-list">
-                  <li><i class="fa fa-phone" aria-hidden="true"></i>  Telefon: 728 858 838</li>
+                  <li><i class="fa fa-phone" aria-hidden="true"></i>  Telefon: 728 858 838 <p>Sekretariat: 506 664 080</p></li>
                   <li><i class="fa fa-envelope" aria-hidden="true"></i>  E-Mail: info@przedszkoleania.pl</li>
                   <li><i class="fa fa-home" aria-hidden="true"></i>  Adres: ul. Prosta 53, 08-300 Sokołów Podlaski </li>
                   <li><i class="fa fa-calendar" aria-hidden="true"></i>  Godziny otwarcia: Poniedziałek - Piątek<p>w godzinach 7 - 18 </p> </li>
