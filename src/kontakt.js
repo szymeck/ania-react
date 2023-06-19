@@ -40,6 +40,8 @@ function Kontakt() {
                 <div className="item-text">
                   <p>Numer telefonu</p>
                   <p>728 858 838</p>
+                  <p>Sekretariat:</p>
+                  <p>506 664 080</p>
                 </div>
               </div>
               <div className="info-item">
