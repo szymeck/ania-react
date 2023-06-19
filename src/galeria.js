@@ -60,10 +60,7 @@ function Galeria() {
       original: "/13.jpg",
       thumbnail: "/13.jpg",
     },
-    {
-      original: "/14.jpg",
-      thumbnail: "/14.jpg",
-    },
+    
     {
       original: "/15.jpg",
       thumbnail: "/15.jpg",
@@ -93,10 +90,7 @@ function Galeria() {
       original: "/36.jpg",
       thumbnail: "/36.jpg",
     },
-    {
-      original: "/24.jpg",
-      thumbnail: "/24.jpg",
-    },
+    
     {
       original: "/25.jpg",
       thumbnail: "/25.jpg",
