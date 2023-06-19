@@ -87,6 +87,14 @@ function Galeria() {
       thumbnail: "/20.jpg",
     },
     {
+      original: "/22.jpg",
+      thumbnail: "/22.jpg",
+    },
+    {
+      original: "/24.jpg",
+      thumbnail: "/24.jpg",
+    },
+    {
       original: "/36.jpg",
       thumbnail: "/36.jpg",
     },
