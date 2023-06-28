@@ -110,7 +110,7 @@ function Kontakt() {
         </div>
         <div className="kontakt-container2">
         <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d608.5217698348143!2d22.261357829255985!3d52.40509799873704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471f6eae7855308f%3A0x5d0f61dcccd11758!2sProsta%2053%2C%2008-300%20Soko%C5%82%C3%B3w%20Podlaski!5e0!3m2!1sen!2spl!4v1679500482157!5m2!1sen!2spl"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.0503776515416!2d22.259169515803276!3d52.4057631797928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471f6f6a0842267f%3A0x12246e17cedda7f7!2sNiepubliczne%20Przedszkole%20Integracyjne%20Ania%20z%20Zielonego%20Wzg%C3%B3rza!5e0!3m2!1spl!2spl!4v1687949063436!5m2!1spl!2spl"
                   width="100%"
                   height="100%"
                   style={{ border: "0" }}
