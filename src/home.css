@@ -209,9 +209,22 @@ nav a .logo img {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  border: 5px solid #1a6136;
+  background-color: rgba(0, 0, 0, 0.6980392157);
+  border-radius: 10px;
+  padding: 3%;
+  margin: 3%;
 }
 .popup .popup-inner a h1 {
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.829);
+  line-height: normal;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 30px;
+}
+.popup .popup-inner a h2 {
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.829);
+  font-size: 30px;
 }
 .popup .popup-inner img {
   display: flex;
@@ -232,7 +245,7 @@ nav a .logo img {
   margin-bottom: auto;
 }
 .popup .popup-inner a img {
-  width: 300px;
+  max-width: 300px;
 }
 
 .bar {
@@ -803,6 +816,37 @@ nav a .logo img {
 }
 
 @media only screen and (max-width: 1130px) {
+  .popup .popup-inner a h1 {
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.829);
+    line-height: normal;
+    font-size: 20px;
+  }
+  .popup .popup-inner a h2 {
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.829);
+    font-size: 20px;
+    line-height: normal;
+  }
+  .popup .popup-inner img {
+    display: flex;
+    margin-inline: auto;
+  }
+  .popup .popup-inner button {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #699e7e;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    max-width: 300px;
+  }
+  .popup .popup-inner a {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .popup .popup-inner a img {
+    width: 300px;
+  }
   .bar {
     overflow: hidden;
   }

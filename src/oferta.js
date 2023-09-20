@@ -147,12 +147,7 @@ const Oferta = () => {
               <i class="fa fa-check-circle" aria-hidden="true"></i> Przedszkole
               jest otwarte dla dzieci od godz 7.00 do godz 18.00
             </h3>
-            <h3>
-              {" "}
-              <i class="fa fa-check-circle" aria-hidden="true"></i> Dzieci z
-              orzeczeniem o potrzebie kształcenia specjalnego zwolnione są z
-              opłaty czesnego
-            </h3>
+            
             <h3>
               {" "}
               <i class="fa fa-check-circle" aria-hidden="true"></i> Przyjmujemy
