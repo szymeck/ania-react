@@ -25,14 +25,7 @@ function Galeria() {
       original: "/1-2.jpg",
       thumbnail: "/1-2.jpg",
     },
-    {
-      original: "/4.jpg",
-      thumbnail: "/4.jpg",
-    },
-    {
-      original: "/5.jpg",
-      thumbnail: "/5.jpg",
-    },
+    
     {
       original: "/6.jpg",
       thumbnail: "/6.jpg",
@@ -67,10 +60,7 @@ function Galeria() {
       original: "/13.jpg",
       thumbnail: "/13.jpg",
     },
-    {
-      original: "/14.jpg",
-      thumbnail: "/14.jpg",
-    },
+    
     {
       original: "/15.jpg",
       thumbnail: "/15.jpg",
@@ -97,13 +87,18 @@ function Galeria() {
       thumbnail: "/20.jpg",
     },
     {
-      original: "/36.jpg",
-      thumbnail: "/36.jpg",
+      original: "/22.jpg",
+      thumbnail: "/22.jpg",
     },
     {
       original: "/24.jpg",
       thumbnail: "/24.jpg",
     },
+    {
+      original: "/36.jpg",
+      thumbnail: "/36.jpg",
+    },
+    
     {
       original: "/25.jpg",
       thumbnail: "/25.jpg",
