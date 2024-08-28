@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import Galeria from "./galeria";
 import Dzienotwarty from "./dzienotwarty";
 
-import { useState, useEffect } from 'react';
+
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
