@@ -11,27 +11,19 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Galeria from "./galeria";
 import Dzienotwarty from "./dzienotwarty";
-// import Popup from "./Popup";
+
 import { useState, useEffect } from 'react';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 
 function App () {
-  // const [timedPopup,setTimedPopup] = useState(false);
-
-  // useEffect(()=>{
-  //   setTimeout(()=>{
-  //     setTimedPopup(true);
-  //   },5000);
-  // },[]);
+  
   return (
     <div>
       
       <Router>
-      // <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
-          
-      //     </Popup>
+     
       <Navbar/>
         <Routes>
           <Route exact path='/' element={<Home/>} />
