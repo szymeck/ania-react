@@ -299,7 +299,7 @@ function Przedszkole() {
               <td>
                 Międzynarodowy Dzień Świadomości Autyzmu - dzień niebieski
               </td>
-              <td>04 kwietnia</td>
+              <td>02 kwietnia</td>
             </tr>
             <tr>
               <td>Międzynarodowy Dzień Ziemi</td>
