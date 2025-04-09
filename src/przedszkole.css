@@ -188,17 +188,54 @@
   border: 1px solid #15703a;
 }
 
-.przedszkole5 .przedszkole5-container {
+.przedszkole5 .image-gallery {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1400px;
+}
+.przedszkole5 .image-gallery-thumbnails .image-gallery-thumbnails-container {
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  z-index: 5 !important;
+}
+.przedszkole5 .image-gallery-thumbnail.active,
+.przedszkole5 .image-gallery-thumbnail:focus {
+  border: 4px solid #1a6136 !important;
+}
+.przedszkole5 .image-gallery-thumbnail:hover {
+  border: 4px solid #1a6136 !important;
+}
+.przedszkole5 .image-gallery-icon:hover {
+  color: #1a6136 !important;
+}
+.przedszkole5 .image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(85vh - 80px) !important;
+}
+
+.image-gallery-content.fullscreen {
+  background: #000;
+  z-index: 30;
+}
+
+.image-gallery-fullscreen-button {
+  display: none;
+}
+
+.przedszkole5-container {
   display: flex;
   justify-content: center;
 }
-.przedszkole5 .przedszkole5-container .collaps {
+.przedszkole5-container .collaps {
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 600px;
 }
-.przedszkole5 .przedszkole5-container .collaps .menu {
+.przedszkole5-container .collaps .menu {
   box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
   display: flex;
@@ -206,10 +243,10 @@
   align-items: center;
   background-color: #1a6136;
 }
-.przedszkole5 .przedszkole5-container .collaps .menu .label {
+.przedszkole5-container .collaps .menu .label {
   background-color: #1a6136;
 }
-.przedszkole5 .przedszkole5-container .collaps .menu .icon img {
+.przedszkole5-container .collaps .menu .icon img {
   width: 100%;
   -o-object-fit: contain;
   object-fit: contain;
@@ -217,7 +254,7 @@
   border-top-right-radius: 5px;
   border-bottom: #ffad33 10px solid;
 }
-.przedszkole5 .przedszkole5-container .collaps .menu .title {
+.przedszkole5-container .collaps .menu .title {
   display: flex;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.329);
   font-weight: 600;
@@ -233,7 +270,7 @@
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
 }
-.przedszkole5 .przedszkole5-container .collaps .toggle {
+.przedszkole5-container .collaps .toggle {
   background-color: #1a6136;
   border: unset;
   color: white;
@@ -248,34 +285,34 @@
   cursor: pointer;
   transition: all 0.3s;
 }
-.przedszkole5 .przedszkole5-container .collaps .toggle:hover {
+.przedszkole5-container .collaps .toggle:hover {
   background-color: #188545;
   box-shadow: 3px 3px 13px -1px #188545;
 }
-.przedszkole5 .przedszkole5-container .collaps .content {
+.przedszkole5-container .collaps .content {
   background-color: rgba(26, 97, 54, 0.1921568627);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
-.przedszkole5 .przedszkole5-container .collaps .content-parent {
+.przedszkole5-container .collaps .content-parent {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
   border-radius: 8px;
   margin-bottom: 40px;
 }
-.przedszkole5 .przedszkole5-container .collaps .content-parent p {
+.przedszkole5-container .collaps .content-parent p {
   text-align: left;
 }
-.przedszkole5 .przedszkole5-container .collaps .content-parent p a {
+.przedszkole5-container .collaps .content-parent p a {
   background-color: #1a6136;
   color: white;
   padding: 4px;
   border-radius: 4px;
 }
-.przedszkole5 .przedszkole5-container .collaps .content-parent.show {
+.przedszkole5-container .collaps .content-parent.show {
   max-height: 5000px;
 }
 
