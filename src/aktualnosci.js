@@ -42,7 +42,7 @@ const Aktualnosci = () => {
             </div>
             <div className="item-text">
               <h3>
-              RUSZYŁA REKRUTACJA DO NASZEGO PRZEDSZKOLA !!!
+             Nowa grupa od Września 2025
               </h3>
               <p>Dowiedz się wiecej</p>
             </div>
