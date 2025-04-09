@@ -189,7 +189,7 @@ const Oferta = () => {
             <h3>
               {" "}
               <i class="fa fa-check-circle" aria-hidden="true"></i> Realizujemy
-              Wczesne Wspomaganie Rozwoju - równierz dla młodszych dzieci spoza Przedszkola
+              Wczesne Wspomaganie Rozwoju - również dla młodszych dzieci spoza Przedszkola
             </h3>
             <h3>
               {" "}
