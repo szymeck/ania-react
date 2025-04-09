@@ -229,103 +229,103 @@ function Przedszkole() {
             </tr>
             <tr>
               <td>Dzień Przedszkolaka</td>
-              <td></td>
+              <td> 20 września</td>
             </tr>
             <tr>
               <td>Powitanie jesieni – Święto Dyni – dzień pomarańczowy</td>
-              <td></td>
+              <td>październik</td>
             </tr>
             <tr>
               <td>Światowy Dzień Uśmiechu</td>
-              <td></td>
+              <td>październik</td>
             </tr>
             <tr>
               <td>Pasowanie przedszkolaków</td>
-              <td>X/XI 2023</td>
+              <td>listopad </td>
             </tr>
             <tr>
               <td>Święto Niepodległości</td>
-              <td>10.XI.2023</td>
+              <td>10 listopad</td>
             </tr>
             <tr>
               <td>Dzień Pluszowego Misia</td>
-              <td></td>
+              <td> 25 listopad</td>
             </tr>
             <tr>
               <td>Andrzejki</td>
-              <td>30.XI.2023</td>
+              <td>30 listopad</td>
             </tr>
             <tr>
               <td>Światowy dzień Osób z Niepełnosprawnością</td>
-              <td>02.XII.2023</td>
+              <td>02 grudnia</td>
             </tr>
             <tr>
               <td>Mikołajki</td>
-              <td>06.XII.2023</td>
+              <td>06 grudnia</td>
             </tr>
             <tr>
               <td>Jasełka – grupy starsze</td>
-              <td>XII 2023</td>
+              <td>grudzień</td>
             </tr>
             <tr>
               <td>Powitanie Zimy - dzień biały</td>
-              <td>22.XII.2023</td>
+              <td>22 grudnia</td>
             </tr>
             <tr>
               <td>Dzień Babci i Dziadka</td>
-              <td>I.2024</td>
+              <td>styczeń</td>
             </tr>
             <tr>
               <td>Bal karnawałowy</td>
-              <td>I.2024</td>
+              <td>styczeń</td>
             </tr>
             <tr>
               <td>Walentynki</td>
-              <td>14.II.2024</td>
+              <td>14 luty</td>
             </tr>
             <tr>
               <td>Święto Marchewki – dzień pomarańczowy</td>
-              <td>10.III.2024</td>
+              <td>10 marca</td>
             </tr>
             <tr>
               <td>Powitanie Wiosny - dzień zielony</td>
-              <td>21.III.2024</td>
+              <td>21 marca</td>
             </tr>
             <tr>
               <td>Międzynarodowy Dzień Teatru</td>
-              <td>28.III.2024</td>
+              <td>28 kwietnia</td>
             </tr>
             <tr>
               <td>
                 Międzynarodowy Dzień Świadomości Autyzmu - dzień niebieski
               </td>
-              <td>04.IV.2024</td>
+              <td>04 kwietnia</td>
             </tr>
             <tr>
               <td>Międzynarodowy Dzień Ziemi</td>
-              <td>21.IV.2024</td>
+              <td>21 kwietnia</td>
             </tr>
             <tr>
               <td>Dzień Mamy i Taty</td>
-              <td>V .2024</td>
+              <td>maj</td>
             </tr>
             <tr>
               <td>Dni otwarte w przedszkolu</td>
-              <td>VI .2024</td>
+              <td>czerwiec</td>
             </tr>
             <tr>
               <td>Dzień Dziecka</td>
-              <td>VI. 2024</td>
+              <td>czerwiec</td>
             </tr>
             <tr>
               <td>Powitanie Lata – dzień żółty</td>
-              <td>VI. 2024</td>
+              <td>czerwiec</td>
             </tr>
             <tr>
               <td>
                 Uroczyste zakończenie roku szkolnego – pożegnanie starszaków
               </td>
-              <td>VI. 2024</td>
+              <td>czerwiec</td>
             </tr>
           </table>
         </div>
