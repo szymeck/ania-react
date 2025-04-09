@@ -188,9 +188,6 @@
   border: 1px solid #15703a;
 }
 
-.przedszkole5 {
-  margin: 20px;
-}
 .przedszkole5 .przedszkole5-container {
   display: flex;
   justify-content: center;
@@ -282,6 +279,14 @@
   max-height: 5000px;
 }
 
+.image-gallery-content.fullscreen {
+  background: #000;
+  z-index: 30;
+}
+
+.image-gallery-fullscreen-button {
+  display: none;
+}
 
 @media only screen and (max-width: 1130px) {
   .przedszkole1 .grupy .grupa-1,

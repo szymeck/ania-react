@@ -230,198 +230,170 @@ function Przedszkole() {
             </tr>
             <tr>
               <td>Dzień Przedszkolaka</td>
-              <td> 20 września</td>
+              <td></td>
             </tr>
             <tr>
               <td>Powitanie jesieni – Święto Dyni – dzień pomarańczowy</td>
-              <td>październik</td>
+              <td></td>
             </tr>
             <tr>
               <td>Światowy Dzień Uśmiechu</td>
-              <td>październik</td>
+              <td></td>
             </tr>
             <tr>
               <td>Pasowanie przedszkolaków</td>
-              <td>listopad </td>
+              <td>X/XI 2023</td>
             </tr>
             <tr>
               <td>Święto Niepodległości</td>
-              <td>10 listopad</td>
+              <td>10.XI.2023</td>
             </tr>
             <tr>
               <td>Dzień Pluszowego Misia</td>
-              <td> 25 listopad</td>
+              <td></td>
             </tr>
             <tr>
               <td>Andrzejki</td>
-              <td>30 listopad</td>
+              <td>30.XI.2023</td>
             </tr>
             <tr>
               <td>Światowy dzień Osób z Niepełnosprawnością</td>
-              <td>02 grudnia</td>
+              <td>02.XII.2023</td>
             </tr>
             <tr>
               <td>Mikołajki</td>
-              <td>06 grudnia</td>
+              <td>06.XII.2023</td>
             </tr>
             <tr>
               <td>Jasełka – grupy starsze</td>
-              <td>grudzień</td>
+              <td>XII 2023</td>
             </tr>
             <tr>
               <td>Powitanie Zimy - dzień biały</td>
-              <td>22 grudnia</td>
+              <td>22.XII.2023</td>
             </tr>
             <tr>
               <td>Dzień Babci i Dziadka</td>
-              <td>styczeń</td>
+              <td>I.2024</td>
             </tr>
             <tr>
               <td>Bal karnawałowy</td>
-              <td>styczeń</td>
+              <td>I.2024</td>
             </tr>
             <tr>
               <td>Walentynki</td>
-              <td>14 luty</td>
+              <td>14.II.2024</td>
             </tr>
             <tr>
               <td>Święto Marchewki – dzień pomarańczowy</td>
-              <td>10 marca</td>
+              <td>10.III.2024</td>
             </tr>
             <tr>
               <td>Powitanie Wiosny - dzień zielony</td>
-              <td>21 marca</td>
+              <td>21.III.2024</td>
             </tr>
             <tr>
               <td>Międzynarodowy Dzień Teatru</td>
-              <td>28 kwietnia</td>
+              <td>28.III.2024</td>
             </tr>
             <tr>
               <td>
                 Międzynarodowy Dzień Świadomości Autyzmu - dzień niebieski
               </td>
-              <td>02 kwietnia</td>
+              <td>04.IV.2024</td>
             </tr>
             <tr>
               <td>Międzynarodowy Dzień Ziemi</td>
-              <td>21 kwietnia</td>
+              <td>21.IV.2024</td>
             </tr>
             <tr>
               <td>Dzień Mamy i Taty</td>
-              <td>maj</td>
+              <td>V .2024</td>
             </tr>
             <tr>
               <td>Dni otwarte w przedszkolu</td>
-              <td>czerwiec</td>
+              <td>VI .2024</td>
             </tr>
             <tr>
               <td>Dzień Dziecka</td>
-              <td>czerwiec</td>
+              <td>VI. 2024</td>
             </tr>
             <tr>
               <td>Powitanie Lata – dzień żółty</td>
-              <td>czerwiec</td>
+              <td>VI. 2024</td>
             </tr>
             <tr>
               <td>
                 Uroczyste zakończenie roku szkolnego – pożegnanie starszaków
               </td>
-              <td>czerwiec</td>
+              <td>VI. 2024</td>
             </tr>
           </table>
         </div>
       </div>
-           <div className="przedszkole5">
-        <Heading title={"Deklaracja dostępności"} />
+      <div className="przedszkole5">
+      <Heading title={"Deklaracja dostępności"} />
         <div className="przedszkole5-container">
-          <Collaps label="Deklaracja dostępności" icon="/deklaracja.jpg">
-            <p>
-              Zgodnie z ustawą z dnia 4 kwietnia 2019 r. o dostępności cyfrowej
-              stron internetowych i aplikacji mobilnych podmiotów publicznych
-              Niepubliczne Przedszkole Integracyjne Ania z Zielonego Wzgórza
-              zobowiązuje się do zapewnienia dostępności swojej strony
-              internetowej. Oświadczenie dotyczy strony pod adresem
-              www.przedszkoleania.pl i jest ona częściowo zgodna z ustawą z dnia
-              4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i
-              aplikacji mobilnych podmiotów publicznych.
-              <br />
-              Ułatwienia na stronie:
-              <br />
-              - Zmiana kontrastu,
-              <br />
-              - Możliwość zmiany rozmiaru tekstu,
-              <br />
-              - Podane wielkości plików do pobrania,
-              <br />
-              - Możliwość ustawienia fokusu wokół elementów nawigacyjnych.
-              <br />
-              <a
-                href="./Tabela-podsumowująca-badanie-dostępności-cyfrowej.docx"
-                target="_blank"
-              >
-                Tabela podsumowująca badanie dostępności cyfrowej
-              </a>
-              <br />
-              Każdy ma prawo do wystąpienia z żądaniem zapewnienia dostępności
-              cyfrowej strony internetowej. Żądanie powinno zawierać dane osoby
-              zgłaszającej żądanie, wskazanie strony internetowej oraz sposób
-              kontaktu. Jeżeli osoba żądająca zgłasza potrzebę otrzymania
-              informacji w formie alternatywnej, powinna także określić formę
-              tej informacji.
-              <br />
-              Podmiot publiczny powinien zrealizować żądanie niezwłocznie i nie
-              później, niż w ciągu 7 dni. Jeżeli dotrzymanie tego terminu nie
-              jest możliwe, podmiot publiczny niezwłocznie informuje o tym,
-              kiedy realizacja żądania będzie możliwa, przy czym termin ten nie
-              może być dłuższy niż 2 miesiące. Jeżeli zapewnienie dostępności
-              nie jest możliwe, podmiot publiczny może zaproponować alternatywny
-              sposób dostępu do informacji. W przypadku, gdy podmiot odmówi
-              realizacji żądania zapewnienia dostępności lub alternatywnego
-              dostępu do informacji, można złożyć skargę na takie działanie. Po
-              wyczerpaniu wszystkich możliwości skargę można przesłać także do
-              Rzecznika Praw Obywatelskich.
-              <br />
-              Żądanie należy kierować na adres:
-              <br />
-              Niepubliczne Przedszkole Integracyjne
-              <br />
-              Ania z Zielonego Wzgórza
-              <br />
-              ul. Prosta 53
-              <br />
-              08-300 Sokołów Podlaski
-              <br />
-              Tel. 728 858 838
-              <br />
-              e-mail: info@przedszkoleania.pl
-              <br />
-              Dostępność architektoniczna:
-              <br />
-              - Na parkingu zostało wydzielone i oznakowane miejsce przeznaczone
-              dla osób z niepełnosprawnościami
-              <br />
-              - Na teren placówki można wejść z psem przewodnikiem
-              <br />
-              - Wejście do przedszkola znajduje się od strony ulicy Prostej, nie
-              występują przewyższenia, możliwy jest wjazd wózkiem inwalidzkim
-              <br />
-              - Przy wejściu do przedszkola jest możliwość skorzystania z
-              dzwonka celem przywołania pracownika placówki
-              <br />
-              - Przedszkole znajduje się w budynku parterowym, nie występują
-              schody w budynku a korytarz umożliwia swobodne przemieszczanie się
-              w jego obrębie
-              <br />
-              - Sale zabaw są przestronne, a łazienki przy salach dostosowane do
-              potrzeb osób z niepełnosprawnościami
-              <br />
-              - Na miejscu dostępna jest łazienka dostosowana do potrzeb osób z
-              niepełnosprawnościami
-              <br />
-            </p>
-          </Collaps>
-        </div>
-      </div>       
+        <Collaps label="Deklaracja dostępności" icon="/deklaracja.jpg">
+              <p>
+              Zgodnie z ustawą z dnia 4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i
+aplikacji mobilnych podmiotów publicznych Niepubliczne Przedszkole Integracyjne Ania z
+Zielonego Wzgórza zobowiązuje się do zapewnienia dostępności swojej strony internetowej.
+Oświadczenie dotyczy strony pod adresem www.przedszkoleania.pl i jest ona częściowo
+zgodna z ustawą z dnia 4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i
+aplikacji mobilnych podmiotów publicznych.<br/>
+Ułatwienia na stronie:<br/>
+- Zmiana kontrastu,<br/>
+- Możliwość zmiany rozmiaru tekstu,<br/>
+- Podane wielkości plików do pobrania,<br/>
+- Możliwość ustawienia fokusu wokół elementów nawigacyjnych.<br/>
+<a
+            href="./Tabela-podsumowująca-badanie-dostępności-cyfrowej.docx"
+            target="_blank"
+          >Tabela podsumowująca badanie dostępności cyfrowej</a><br/>
+
+Każdy ma prawo do wystąpienia z żądaniem zapewnienia dostępności cyfrowej strony
+internetowej. Żądanie powinno zawierać dane osoby zgłaszającej żądanie, wskazanie strony
+internetowej oraz sposób kontaktu. Jeżeli osoba żądająca zgłasza potrzebę otrzymania
+informacji w formie alternatywnej, powinna także określić formę tej informacji.<br/>
+
+Podmiot publiczny powinien zrealizować żądanie niezwłocznie i nie później, niż w ciągu 7
+dni. Jeżeli dotrzymanie tego terminu nie jest możliwe, podmiot publiczny niezwłocznie
+informuje o tym, kiedy realizacja żądania będzie możliwa, przy czym termin ten nie może być
+dłuższy niż 2 miesiące. Jeżeli zapewnienie dostępności nie jest możliwe, podmiot publiczny
+może zaproponować alternatywny sposób dostępu do informacji.
+W przypadku, gdy podmiot odmówi realizacji żądania zapewnienia dostępności lub
+alternatywnego dostępu do informacji, można złożyć skargę na takie działanie. Po
+wyczerpaniu wszystkich możliwości skargę można przesłać także do Rzecznika Praw
+Obywatelskich.<br/>
+Żądanie należy kierować na adres:<br/>
+
+Niepubliczne Przedszkole Integracyjne<br/>
+Ania z Zielonego Wzgórza<br/>
+ul. Prosta 53<br/>
+08-300 Sokołów Podlaski<br/>
+
+Tel. 728 858 838<br/>
+e-mail: info@przedszkoleania.pl<br/>
+
+Dostępność architektoniczna:<br/>
+- Na parkingu zostało wydzielone i oznakowane miejsce przeznaczone dla osób z
+niepełnosprawnościami<br/>
+- Na teren placówki można wejść z psem przewodnikiem<br/>
+- Wejście do przedszkola znajduje się od strony ulicy Prostej, nie występują
+przewyższenia, możliwy jest wjazd wózkiem inwalidzkim<br/>
+- Przy wejściu do przedszkola jest możliwość skorzystania z dzwonka celem
+przywołania pracownika placówki<br/>
+- Przedszkole znajduje się w budynku parterowym, nie występują schody w budynku a
+korytarz umożliwia swobodne przemieszczanie się w jego obrębie<br/>
+- Sale zabaw są przestronne, a łazienki przy salach dostosowane do potrzeb osób z
+niepełnosprawnościami<br/>
+- Na miejscu dostępna jest łazienka dostosowana do potrzeb osób z
+niepełnosprawnościami<br/>
+              </p>
+            </Collaps>
+          </div>
+      </div>
     </div>
   );
 }

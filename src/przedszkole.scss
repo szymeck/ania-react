@@ -105,6 +105,7 @@ $highlite: #ff564f;
     }
   }
 }
+
 .przedszkole2 {
   margin: 20px auto;
   max-width: 1240px;
@@ -211,38 +212,104 @@ $highlite: #ff564f;
   }
 }
 .przedszkole5 {
-  margin:20px;
+  .przedszkole5-container{
+    display: flex;
+    justify-content: center;
+    .collaps {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 600px;
+      .menu {
+        box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
   
+        background-color: #1a6136;
+        .label {
+          background-color: #1a6136;
+        }
+        .icon {
+          img {
+            width: 100%;
   
-  .image-gallery {
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 1400px;
-    
+            -o-object-fit: contain;
+            object-fit: contain;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom: #ffad33 10px solid;
+          }
+        }
+        .title {
+          display: flex;
+          text-shadow: (0px 1px 3px rgba(0, 0, 0, 0.329));
+          font-weight: 600;
+          background-color: #1a6136;
+          font-size: 18px;
+          color: white;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          border-bottom-right-radius: 8px;
+          border-bottom-left-radius: 8px;
+        }
+      }
+  
+      .toggle {
+        background-color: $main-color;
+        border: unset;
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+        width: 100%;
+        padding: 12px 0;
+        margin: 8px 0;
+        border-radius: 8px;
+        text-shadow: (0px 1px 3px rgba(0, 0, 0, 0.329));
+        box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover {
+          background-color: #188545;
+          box-shadow: 3px 3px 13px -1px #188545;
+        }
+      }
+      .content {
+        background-color: #1a613631;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
+  
+        text-align: center;
+      }
+      .content-parent {
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+        border-radius: 8px;
+        
+        margin-bottom: 40px;
+        p{
+          text-align: left;
+          a{
+            background-color: #1a6136;
+            color: white;
+            padding: 4px;
+            border-radius: 4px;
+          }
+        }
+      }
+      .content-parent.show {
+        max-height: 5000px;
+      }
+    }
   }
   
-  .image-gallery-thumbnails .image-gallery-thumbnails-container {
-    cursor: pointer;
-    text-align: center;
-    white-space: nowrap;
-    position: relative;
-    display: inline-block;
-    padding: 0;
-    z-index: 5!important;
-  }
-  .image-gallery-thumbnail.active,
-  .image-gallery-thumbnail:focus {
-    border: 4px solid$main-color !important;
-  }
-  .image-gallery-thumbnail:hover {
-    border: 4px solid $main-color !important;
-  }
-  .image-gallery-icon:hover {
-    color: $main-color !important;
-  }
-  .image-gallery-content .image-gallery-slide .image-gallery-image {
-    max-height: calc(85vh - 80px) !important;
-  }
 }
 .image-gallery-content.fullscreen {
   background: #000;
@@ -310,9 +377,8 @@ $highlite: #ff564f;
   }
   .przedszkole5 {
     margin: 20px 5px;
-    .image-gallery {
-      padding: 0px;
-    }
+    font-size: 12px;
+    line-height: 22px;
     
   }
 }
