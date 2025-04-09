@@ -133,7 +133,7 @@ const Oferta = () => {
           </div>
           <div className="oferta1-item">
             <div className="item-content">
-              <img src="./oferta-10.jpg" alt="icon"></img>
+              <img src="./oferta-2.jpg" alt="icon"></img>
 
               <div className="text">
                 <h2>
@@ -144,7 +144,7 @@ const Oferta = () => {
           </div>
           <div className="oferta1-item">
             <div className="item-content">
-              <img src="./oferta-10.jpg" alt="icon"></img>
+              <img src="./rekrutacja-1.jpg" alt="icon"></img>
 
               <div className="text">
                 <h2>
@@ -155,7 +155,7 @@ const Oferta = () => {
           </div>
           <div className="oferta1-item">
             <div className="item-content">
-              <img src="./oferta-10.jpg" alt="icon"></img>
+              <img src="./onas-11.jpg" alt="icon"></img>
 
               <div className="text">
                 <h2>
