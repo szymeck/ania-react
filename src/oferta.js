@@ -61,7 +61,7 @@ const Oferta = () => {
               <img src="./oferta-3.jpg" alt="icon"></img>
 
               <div className="text">
-                <h2>Gimnastyka z fizjoterapeutą</h2>
+                <h2>Zajęcia sportowo-ruchowe z Trenerami Akademii Piłkarskiej</h2>
               </div>
             </div>
           </div>
@@ -131,6 +131,39 @@ const Oferta = () => {
               </div>
             </div>
           </div>
+          <div className="oferta1-item">
+            <div className="item-content">
+              <img src="./oferta-10.jpg" alt="icon"></img>
+
+              <div className="text">
+                <h2>
+                  Zajęcia muzyczne
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className="oferta1-item">
+            <div className="item-content">
+              <img src="./oferta-10.jpg" alt="icon"></img>
+
+              <div className="text">
+                <h2>
+                  Kodowanie
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className="oferta1-item">
+            <div className="item-content">
+              <img src="./oferta-10.jpg" alt="icon"></img>
+
+              <div className="text">
+                <h2>
+                 Zajęcia z Alpaką
+                </h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="oferta2">
@@ -156,11 +189,15 @@ const Oferta = () => {
             <h3>
               {" "}
               <i class="fa fa-check-circle" aria-hidden="true"></i> Realizujemy
-              Wczesne Wspomaganie Rozwoju
+              Wczesne Wspomaganie Rozwoju - równierz dla młodszych dzieci spoza Przedszkola
             </h3>
             <h3>
               {" "}
-              Czesne wynosi miesięcznie 290 zł + dzienna stawka żywieniowa
+              <i class="fa fa-check-circle" aria-hidden="true"></i> Realizujemy zajęcia rewalidacyjno-wychowawcze
+            </h3>
+            <h3>
+              {" "}
+              Czesne wynosi miesięcznie 350 zł + dzienna stawka żywieniowa
             </h3>
           </div>
         </div>
