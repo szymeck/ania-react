@@ -3,6 +3,7 @@ import Bar from "./components/Bar";
 import Heading from "./components/Heading";
 import "./przedszkole.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
+import Collaps from "./components/Collaps";
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
@@ -330,6 +331,97 @@ function Przedszkole() {
           </table>
         </div>
       </div>
+           <div className="przedszkole5">
+        <Heading title={"Deklaracja dostępności"} />
+        <div className="przedszkole5-container">
+          <Collaps label="Deklaracja dostępności" icon="/deklaracja.jpg">
+            <p>
+              Zgodnie z ustawą z dnia 4 kwietnia 2019 r. o dostępności cyfrowej
+              stron internetowych i aplikacji mobilnych podmiotów publicznych
+              Niepubliczne Przedszkole Integracyjne Ania z Zielonego Wzgórza
+              zobowiązuje się do zapewnienia dostępności swojej strony
+              internetowej. Oświadczenie dotyczy strony pod adresem
+              www.przedszkoleania.pl i jest ona częściowo zgodna z ustawą z dnia
+              4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i
+              aplikacji mobilnych podmiotów publicznych.
+              <br />
+              Ułatwienia na stronie:
+              <br />
+              - Zmiana kontrastu,
+              <br />
+              - Możliwość zmiany rozmiaru tekstu,
+              <br />
+              - Podane wielkości plików do pobrania,
+              <br />
+              - Możliwość ustawienia fokusu wokół elementów nawigacyjnych.
+              <br />
+              <a
+                href="./Tabela-podsumowująca-badanie-dostępności-cyfrowej.docx"
+                target="_blank"
+              >
+                Tabela podsumowująca badanie dostępności cyfrowej
+              </a>
+              <br />
+              Każdy ma prawo do wystąpienia z żądaniem zapewnienia dostępności
+              cyfrowej strony internetowej. Żądanie powinno zawierać dane osoby
+              zgłaszającej żądanie, wskazanie strony internetowej oraz sposób
+              kontaktu. Jeżeli osoba żądająca zgłasza potrzebę otrzymania
+              informacji w formie alternatywnej, powinna także określić formę
+              tej informacji.
+              <br />
+              Podmiot publiczny powinien zrealizować żądanie niezwłocznie i nie
+              później, niż w ciągu 7 dni. Jeżeli dotrzymanie tego terminu nie
+              jest możliwe, podmiot publiczny niezwłocznie informuje o tym,
+              kiedy realizacja żądania będzie możliwa, przy czym termin ten nie
+              może być dłuższy niż 2 miesiące. Jeżeli zapewnienie dostępności
+              nie jest możliwe, podmiot publiczny może zaproponować alternatywny
+              sposób dostępu do informacji. W przypadku, gdy podmiot odmówi
+              realizacji żądania zapewnienia dostępności lub alternatywnego
+              dostępu do informacji, można złożyć skargę na takie działanie. Po
+              wyczerpaniu wszystkich możliwości skargę można przesłać także do
+              Rzecznika Praw Obywatelskich.
+              <br />
+              Żądanie należy kierować na adres:
+              <br />
+              Niepubliczne Przedszkole Integracyjne
+              <br />
+              Ania z Zielonego Wzgórza
+              <br />
+              ul. Prosta 53
+              <br />
+              08-300 Sokołów Podlaski
+              <br />
+              Tel. 728 858 838
+              <br />
+              e-mail: info@przedszkoleania.pl
+              <br />
+              Dostępność architektoniczna:
+              <br />
+              - Na parkingu zostało wydzielone i oznakowane miejsce przeznaczone
+              dla osób z niepełnosprawnościami
+              <br />
+              - Na teren placówki można wejść z psem przewodnikiem
+              <br />
+              - Wejście do przedszkola znajduje się od strony ulicy Prostej, nie
+              występują przewyższenia, możliwy jest wjazd wózkiem inwalidzkim
+              <br />
+              - Przy wejściu do przedszkola jest możliwość skorzystania z
+              dzwonka celem przywołania pracownika placówki
+              <br />
+              - Przedszkole znajduje się w budynku parterowym, nie występują
+              schody w budynku a korytarz umożliwia swobodne przemieszczanie się
+              w jego obrębie
+              <br />
+              - Sale zabaw są przestronne, a łazienki przy salach dostosowane do
+              potrzeb osób z niepełnosprawnościami
+              <br />
+              - Na miejscu dostępna jest łazienka dostosowana do potrzeb osób z
+              niepełnosprawnościami
+              <br />
+            </p>
+          </Collaps>
+        </div>
+      </div>       
     </div>
   );
 }
