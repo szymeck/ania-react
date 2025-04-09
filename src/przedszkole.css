@@ -191,41 +191,96 @@
 .przedszkole5 {
   margin: 20px;
 }
-.przedszkole5 .image-gallery {
-  margin: 0 auto;
-  padding: 20px;
-  max-width: 1400px;
+.przedszkole5 .przedszkole5-container {
+  display: flex;
+  justify-content: center;
 }
-.przedszkole5 .image-gallery-thumbnails .image-gallery-thumbnails-container {
-  cursor: pointer;
+.przedszkole5 .przedszkole5-container .collaps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+.przedszkole5 .przedszkole5-container .collaps .menu {
+  box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a6136;
+}
+.przedszkole5 .przedszkole5-container .collaps .menu .label {
+  background-color: #1a6136;
+}
+.przedszkole5 .przedszkole5-container .collaps .menu .icon img {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: #ffad33 10px solid;
+}
+.przedszkole5 .przedszkole5-container .collaps .menu .title {
+  display: flex;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.329);
+  font-weight: 600;
+  background-color: #1a6136;
+  font-size: 18px;
+  color: white;
   text-align: center;
-  white-space: nowrap;
-  position: relative;
-  display: inline-block;
-  padding: 0;
-  z-index: 5 !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
-.przedszkole5 .image-gallery-thumbnail.active,
-.przedszkole5 .image-gallery-thumbnail:focus {
-  border: 4px solid #1a6136 !important;
+.przedszkole5 .przedszkole5-container .collaps .toggle {
+  background-color: #1a6136;
+  border: unset;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  width: 100%;
+  padding: 12px 0;
+  margin: 8px 0;
+  border-radius: 8px;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.329);
+  box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.3s;
 }
-.przedszkole5 .image-gallery-thumbnail:hover {
-  border: 4px solid #1a6136 !important;
+.przedszkole5 .przedszkole5-container .collaps .toggle:hover {
+  background-color: #188545;
+  box-shadow: 3px 3px 13px -1px #188545;
 }
-.przedszkole5 .image-gallery-icon:hover {
-  color: #1a6136 !important;
+.przedszkole5 .przedszkole5-container .collaps .content {
+  background-color: rgba(26, 97, 54, 0.1921568627);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 13px -4px rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
-.przedszkole5 .image-gallery-content .image-gallery-slide .image-gallery-image {
-  max-height: calc(85vh - 80px) !important;
+.przedszkole5 .przedszkole5-container .collaps .content-parent {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  border-radius: 8px;
+  margin-bottom: 40px;
 }
-
-.image-gallery-content.fullscreen {
-  background: #000;
-  z-index: 30;
+.przedszkole5 .przedszkole5-container .collaps .content-parent p {
+  text-align: left;
 }
-
-.image-gallery-fullscreen-button {
-  display: none;
+.przedszkole5 .przedszkole5-container .collaps .content-parent p a {
+  background-color: #1a6136;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+}
+.przedszkole5 .przedszkole5-container .collaps .content-parent.show {
+  max-height: 5000px;
+}
 }
 
 @media only screen and (max-width: 1130px) {
@@ -275,8 +330,7 @@
   }
   .przedszkole5 {
     margin: 20px 5px;
-  }
-  .przedszkole5 .image-gallery {
-    padding: 0px;
+    font-size: 12px;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=przedszkole.css.map */
