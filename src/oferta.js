@@ -197,6 +197,10 @@ const Oferta = () => {
             </h3>
             <h3>
               {" "}
+              <i class="fa fa-check-circle" aria-hidden="true"></i> Dla rodzeństwa zniżka, czesne -50% na drugie dziecko.
+            </h3>
+            <h3>
+              {" "}
               Czesne wynosi miesięcznie 350 zł + dzienna stawka żywieniowa
             </h3>
           </div>
