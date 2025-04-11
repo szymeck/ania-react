@@ -90,6 +90,7 @@ przygotowanie przedszkolne (tzw. zerówkę).</h3>
             <p><i class="fa fa-info-circle" aria-hidden="true"></i> Opłata za przedszkole to stała opłata miesięczna (350 zł) wraz z opłatą wpisową (200 zł), która
 jest jednorazowa.</p>
 <p><i class="fa fa-info-circle" aria-hidden="true"></i> Dodatkowo doliczana jest stawka żywieniowa- za każdy dzień obecności dziecka.</p>
+<p><i class="fa fa-info-circle" aria-hidden="true"></i> Dla rodzeństwa zniżka, czesne -50% na drugie dziecko.</p>
 
           </div>
           <div className="rekrutacja2-text5">
