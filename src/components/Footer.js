@@ -39,6 +39,7 @@ function Footer() {
                 <ul class="item-social">
                   <a href="https://migumig.pl/" target="_blank" rel="noopener noreferrer">
         <img src="./Projekt_Migowy.jpg" alt="banner" />
+      </a>
                 </ul>
               </div>
             </div>
