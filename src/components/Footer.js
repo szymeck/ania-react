@@ -37,9 +37,12 @@ function Footer() {
                   <li><i class="fa fa-calendar" aria-hidden="true"></i>  Godziny otwarcia: Poniedziałek - Piątek<p>w godzinach 7 - 18 </p> </li>
                 </ul>
                 <ul class="item-social">
+     <div class="item-title">
+                <h3>Bannery:</h3>
                   <a href="https://migumig.pl/" target="_blank" rel="noopener noreferrer">
         <img src="./Projekt_Migowy.jpg" alt="banner" />
       </a>
+    </div>
                 </ul>
               </div>
             </div>
