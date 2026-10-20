@@ -38,7 +38,7 @@ function Footer() {
                 </ul>
                 <ul class="item-social">
      <div class="item-title">
-                <h3>Bannery:</h3>
+                <h3>Bannery</h3>
                   <a href="https://migumig.pl/" target="_blank" rel="noopener noreferrer">
         <img src="./Projekt_Migowy.jpg" alt="banner" />
       </a>
