@@ -37,7 +37,7 @@ function Footer() {
                   <li><i class="fa fa-calendar" aria-hidden="true"></i>  Godziny otwarcia: Poniedziałek - Piątek<p>w godzinach 7 - 18 </p> </li>
                 </ul>
                 <ul class="item-social">
-                  
+                  <img src="./Projekt_Migowy.webp" alt="banner" />
                 </ul>
               </div>
             </div>
